@@ -1,0 +1,541 @@
+date,platform,campaign,keyword,match_type,impressions,clicks,spend,conversions,conversion_value
+2026-07-31,Google Ads,Brand Search,connectwave,Exact,8752,710,1493.28,84,17281.69
+2026-07-31,Google Ads,Brand Search,connectwave communications,Phrase,5233,425,892.94,50,10333.99
+2026-07-31,Google Ads,Brand Search,connectwave login,Exact,3532,287,602.73,34,6975.31
+2026-07-31,Google Ads,Business Fiber,business fiber internet,Phrase,19717,1002,3910.02,64,19832.65
+2026-07-31,Google Ads,Business Fiber,fiber internet for business,Phrase,12255,623,2430.22,40,12326.73
+2026-07-31,Google Ads,Business Fiber,dedicated fiber connection,Broad,10521,535,2086.41,34,10582.82
+2026-07-31,Google Ads,SD-WAN,sd-wan provider,Phrase,8107,331,1731.14,21,9466.89
+2026-07-31,Google Ads,SD-WAN,sd-wan solutions,Phrase,5720,233,1221.34,15,6678.99
+2026-07-31,Google Ads,SD-WAN,managed sd-wan,Broad,4814,196,1028.03,13,5621.87
+2026-07-31,Google Ads,UCaaS,ucaas provider,Phrase,11631,473,2250.08,33,13182.77
+2026-07-31,Google Ads,UCaaS,cloud phone system,Phrase,11277,459,2181.6,32,12781.58
+2026-07-31,Google Ads,UCaaS,business voip solutions,Broad,7539,307,1458.59,21,8545.59
+2026-07-31,Google Ads,Managed Security,managed security services,Phrase,8237,290,1653.87,17,9387.03
+2026-07-31,Google Ads,Managed Security,network security provider,Phrase,6567,231,1318.5,14,7483.55
+2026-07-31,Google Ads,Managed Security,endpoint security business,Broad,6701,236,1345.41,14,7636.28
+2026-07-31,Google Ads,Enterprise Voice,enterprise voice solutions,Phrase,8399,320,2150.81,19,10008.22
+2026-07-31,Google Ads,Enterprise Voice,sip trunking provider,Phrase,6611,252,1692.95,15,7877.7
+2026-07-31,Google Ads,Enterprise Voice,business phone systems,Broad,5202,198,1331.99,12,6198.07
+2026-08-01,Google Ads,Brand Search,connectwave,Exact,4988,412,884.54,52,10325.05
+2026-08-01,Google Ads,Brand Search,connectwave communications,Phrase,2985,246,529.25,31,6177.74
+2026-08-01,Google Ads,Brand Search,connectwave login,Exact,2042,168,362.02,21,4225.74
+2026-08-01,Google Ads,Business Fiber,business fiber internet,Phrase,10605,534,2127.37,33,10001.63
+2026-08-01,Google Ads,Business Fiber,fiber internet for business,Phrase,6574,331,1318.82,20,6200.31
+2026-08-01,Google Ads,Business Fiber,dedicated fiber connection,Broad,6011,303,1205.8,19,5668.98
+2026-08-01,Google Ads,SD-WAN,sd-wan provider,Phrase,5171,210,1196.51,14,6132.71
+2026-08-01,Google Ads,SD-WAN,sd-wan solutions,Phrase,3811,155,881.75,10,4519.42
+2026-08-01,Google Ads,SD-WAN,managed sd-wan,Broad,2984,121,690.49,8,3539.07
+2026-08-01,Google Ads,UCaaS,ucaas provider,Phrase,7129,287,1300.96,18,7001.29
+2026-08-01,Google Ads,UCaaS,cloud phone system,Phrase,5837,235,1065.2,15,5732.49
+2026-08-01,Google Ads,UCaaS,business voip solutions,Broad,4245,171,774.69,11,4169.1
+2026-08-01,Google Ads,Managed Security,managed security services,Phrase,5439,189,1166.96,11,6538.44
+2026-08-01,Google Ads,Managed Security,network security provider,Phrase,3859,134,827.98,8,4639.16
+2026-08-01,Google Ads,Managed Security,endpoint security business,Broad,3871,135,830.4,8,4652.73
+2026-08-01,Google Ads,Enterprise Voice,enterprise voice solutions,Phrase,4190,168,1066.91,9,4818.87
+2026-08-01,Google Ads,Enterprise Voice,sip trunking provider,Phrase,3631,145,924.59,8,4176.07
+2026-08-01,Google Ads,Enterprise Voice,business phone systems,Broad,2599,104,661.85,6,2989.36
+2026-08-02,Google Ads,Brand Search,connectwave,Exact,5651,455,954.15,64,12575.8
+2026-08-02,Google Ads,Brand Search,connectwave communications,Phrase,3373,272,569.45,38,7505.44
+2026-08-02,Google Ads,Brand Search,connectwave login,Exact,2169,175,366.22,25,4826.85
+2026-08-02,Google Ads,Business Fiber,business fiber internet,Phrase,10833,546,2128.59,37,10977.63
+2026-08-02,Google Ads,Business Fiber,fiber internet for business,Phrase,7360,371,1446.07,25,7457.74
+2026-08-02,Google Ads,Business Fiber,dedicated fiber connection,Broad,6280,317,1234.01,22,6364.1
+2026-08-02,Google Ads,SD-WAN,sd-wan provider,Phrase,4567,176,945.76,12,5389.59
+2026-08-02,Google Ads,SD-WAN,sd-wan solutions,Phrase,3318,128,687.13,9,3915.73
+2026-08-02,Google Ads,SD-WAN,managed sd-wan,Broad,2774,107,574.46,7,3273.65
+2026-08-02,Google Ads,UCaaS,ucaas provider,Phrase,7019,276,1357.65,18,7523.12
+2026-08-02,Google Ads,UCaaS,cloud phone system,Phrase,6270,246,1212.7,16,6719.89
+2026-08-02,Google Ads,UCaaS,business voip solutions,Broad,4836,190,935.3,12,5182.76
+2026-08-02,Google Ads,Managed Security,managed security services,Phrase,5762,202,1267.44,11,6013.04
+2026-08-02,Google Ads,Managed Security,network security provider,Phrase,4028,141,886.17,8,4204.2
+2026-08-02,Google Ads,Managed Security,endpoint security business,Broad,4131,145,908.86,8,4311.85
+2026-08-02,Google Ads,Enterprise Voice,enterprise voice solutions,Phrase,4774,188,1308.85,12,5954.52
+2026-08-02,Google Ads,Enterprise Voice,sip trunking provider,Phrase,4075,160,1117.32,10,5083.16
+2026-08-02,Google Ads,Enterprise Voice,business phone systems,Broad,2764,109,757.83,7,3447.69
+2026-08-03,Google Ads,Brand Search,connectwave,Exact,9857,823,1798.98,111,22480.17
+2026-08-03,Google Ads,Brand Search,connectwave communications,Phrase,5697,476,1039.69,64,12992.04
+2026-08-03,Google Ads,Brand Search,connectwave login,Exact,3857,322,703.96,43,8796.69
+2026-08-03,Google Ads,Business Fiber,business fiber internet,Phrase,17904,906,3544.66,61,17619.23
+2026-08-03,Google Ads,Business Fiber,fiber internet for business,Phrase,11796,597,2335.4,40,11608.41
+2026-08-03,Google Ads,Business Fiber,dedicated fiber connection,Broad,10257,519,2030.78,35,10094.26
+2026-08-03,Google Ads,SD-WAN,sd-wan provider,Phrase,9344,382,2127.28,26,11360.73
+2026-08-03,Google Ads,SD-WAN,sd-wan solutions,Phrase,5922,242,1348.1,16,7199.54
+2026-08-03,Google Ads,SD-WAN,managed sd-wan,Broad,5361,219,1220.59,15,6518.55
+2026-08-03,Google Ads,UCaaS,ucaas provider,Phrase,12646,481,2283.46,33,12783.94
+2026-08-03,Google Ads,UCaaS,cloud phone system,Phrase,10753,409,1941.77,28,10870.94
+2026-08-03,Google Ads,UCaaS,business voip solutions,Broad,7506,285,1355.41,19,7588.23
+2026-08-03,Google Ads,Managed Security,managed security services,Phrase,10061,341,2036.22,21,11256.58
+2026-08-03,Google Ads,Managed Security,network security provider,Phrase,7420,251,1501.7,15,8301.66
+2026-08-03,Google Ads,Managed Security,endpoint security business,Broad,7368,250,1491.18,15,8243.52
+2026-08-03,Google Ads,Enterprise Voice,enterprise voice solutions,Phrase,7412,292,1937.49,18,8588.99
+2026-08-03,Google Ads,Enterprise Voice,sip trunking provider,Phrase,6566,259,1716.5,16,7609.32
+2026-08-03,Google Ads,Enterprise Voice,business phone systems,Broad,4563,180,1192.71,11,5287.34
+2026-08-04,Google Ads,Brand Search,connectwave,Exact,10730,899,1993.01,109,21529.77
+2026-08-04,Google Ads,Brand Search,connectwave communications,Phrase,6739,565,1251.67,68,13521.31
+2026-08-04,Google Ads,Brand Search,connectwave login,Exact,4437,372,824.22,45,8903.75
+2026-08-04,Google Ads,Business Fiber,business fiber internet,Phrase,19806,970,3685.7,58,17134.06
+2026-08-04,Google Ads,Business Fiber,fiber internet for business,Phrase,13251,649,2465.91,39,11463.54
+2026-08-04,Google Ads,Business Fiber,dedicated fiber connection,Broad,10512,515,1956.27,31,9094.31
+2026-08-04,Google Ads,SD-WAN,sd-wan provider,Phrase,9825,393,2066.86,24,10516.65
+2026-08-04,Google Ads,SD-WAN,sd-wan solutions,Phrase,6241,249,1312.8,15,6679.84
+2026-08-04,Google Ads,SD-WAN,managed sd-wan,Broad,5704,228,1199.91,14,6105.4
+2026-08-04,Google Ads,UCaaS,ucaas provider,Phrase,14462,584,2767.71,38,14770.32
+2026-08-04,Google Ads,UCaaS,cloud phone system,Phrase,11538,466,2208.12,30,11784.02
+2026-08-04,Google Ads,UCaaS,business voip solutions,Broad,9190,371,1758.77,24,9385.94
+2026-08-04,Google Ads,Managed Security,managed security services,Phrase,11451,394,2392.66,25,13536.42
+2026-08-04,Google Ads,Managed Security,network security provider,Phrase,8541,294,1784.71,19,10096.97
+2026-08-04,Google Ads,Managed Security,endpoint security business,Broad,7941,273,1659.31,18,9387.47
+2026-08-04,Google Ads,Enterprise Voice,enterprise voice solutions,Phrase,7998,330,2408.16,21,10219.13
+2026-08-04,Google Ads,Enterprise Voice,sip trunking provider,Phrase,7477,308,2251.17,20,9552.95
+2026-08-04,Google Ads,Enterprise Voice,business phone systems,Broad,5032,208,1514.98,13,6428.88
+2026-08-05,Google Ads,Brand Search,connectwave,Exact,11026,864,1937.16,112,22533.44
+2026-08-05,Google Ads,Brand Search,connectwave communications,Phrase,6372,499,1119.47,65,13021.87
+2026-08-05,Google Ads,Brand Search,connectwave login,Exact,4138,324,727.03,42,8457.01
+2026-08-05,Google Ads,Business Fiber,business fiber internet,Phrase,18968,937,3671.95,59,17157.16
+2026-08-05,Google Ads,Business Fiber,fiber internet for business,Phrase,12603,622,2439.69,39,11399.42
+2026-08-05,Google Ads,Business Fiber,dedicated fiber connection,Broad,10378,513,2009.04,33,9387.24
+2026-08-05,Google Ads,SD-WAN,sd-wan provider,Phrase,9841,397,2195.0,26,11972.69
+2026-08-05,Google Ads,SD-WAN,sd-wan solutions,Phrase,6727,271,1500.45,18,8184.22
+2026-08-05,Google Ads,SD-WAN,managed sd-wan,Broad,5703,230,1271.99,15,6938.08
+2026-08-05,Google Ads,UCaaS,ucaas provider,Phrase,14147,564,2840.07,39,15264.54
+2026-08-05,Google Ads,UCaaS,cloud phone system,Phrase,11935,476,2396.04,33,12878.0
+2026-08-05,Google Ads,UCaaS,business voip solutions,Broad,8965,357,1799.71,25,9672.9
+2026-08-05,Google Ads,Managed Security,managed security services,Phrase,12366,433,2575.42,22,12367.73
+2026-08-05,Google Ads,Managed Security,network security provider,Phrase,9472,331,1972.7,17,9473.34
+2026-08-05,Google Ads,Managed Security,endpoint security business,Broad,8960,313,1866.06,16,8961.21
+2026-08-05,Google Ads,Enterprise Voice,enterprise voice solutions,Phrase,8377,339,2372.93,21,10502.79
+2026-08-05,Google Ads,Enterprise Voice,sip trunking provider,Phrase,7297,296,2066.94,18,9148.45
+2026-08-05,Google Ads,Enterprise Voice,business phone systems,Broad,5020,203,1422.07,12,6294.21
+2026-08-06,Google Ads,Brand Search,connectwave,Exact,9001,750,1682.38,98,20204.39
+2026-08-06,Google Ads,Brand Search,connectwave communications,Phrase,5370,448,1003.8,59,12055.06
+2026-08-06,Google Ads,Brand Search,connectwave login,Exact,3999,333,747.55,44,8977.57
+2026-08-06,Google Ads,Business Fiber,business fiber internet,Phrase,19391,1008,3844.1,67,19328.91
+2026-08-06,Google Ads,Business Fiber,fiber internet for business,Phrase,13264,690,2629.54,46,13221.85
+2026-08-06,Google Ads,Business Fiber,dedicated fiber connection,Broad,10290,535,2039.98,36,10257.44
+2026-08-06,Google Ads,SD-WAN,sd-wan provider,Phrase,10161,413,2237.77,27,11736.75
+2026-08-06,Google Ads,SD-WAN,sd-wan solutions,Phrase,6918,281,1523.5,19,7990.51
+2026-08-06,Google Ads,SD-WAN,managed sd-wan,Broad,5373,218,1183.22,14,6205.78
+2026-08-06,Google Ads,UCaaS,ucaas provider,Phrase,13391,545,2688.58,40,16782.43
+2026-08-06,Google Ads,UCaaS,cloud phone system,Phrase,12621,514,2533.89,38,15816.88
+2026-08-06,Google Ads,UCaaS,business voip solutions,Broad,9156,373,1838.17,28,11474.11
+2026-08-06,Google Ads,Managed Security,managed security services,Phrase,11584,408,2458.62,21,11719.18
+2026-08-06,Google Ads,Managed Security,network security provider,Phrase,8685,306,1843.31,16,8786.27
+2026-08-06,Google Ads,Managed Security,endpoint security business,Broad,8482,298,1800.12,15,8580.41
+2026-08-06,Google Ads,Enterprise Voice,enterprise voice solutions,Phrase,8175,330,2425.91,19,9466.05
+2026-08-06,Google Ads,Enterprise Voice,sip trunking provider,Phrase,7170,289,2127.72,17,8302.51
+2026-08-06,Google Ads,Enterprise Voice,business phone systems,Broad,5146,208,1527.04,12,5958.6
+2026-08-07,Google Ads,Brand Search,connectwave,Exact,8385,665,1530.93,79,16631.42
+2026-08-07,Google Ads,Brand Search,connectwave communications,Phrase,5234,415,955.57,50,10380.97
+2026-08-07,Google Ads,Brand Search,connectwave login,Exact,3198,254,583.81,30,6342.25
+2026-08-07,Google Ads,Business Fiber,business fiber internet,Phrase,16960,832,3147.61,51,15223.95
+2026-08-07,Google Ads,Business Fiber,fiber internet for business,Phrase,11265,553,2090.7,34,10112.05
+2026-08-07,Google Ads,Business Fiber,dedicated fiber connection,Broad,8984,441,1667.46,27,8064.94
+2026-08-07,Google Ads,SD-WAN,sd-wan provider,Phrase,9036,359,2014.41,22,9816.66
+2026-08-07,Google Ads,SD-WAN,sd-wan solutions,Phrase,5928,236,1321.56,15,6440.21
+2026-08-07,Google Ads,SD-WAN,managed sd-wan,Broad,4715,188,1051.23,12,5122.86
+2026-08-07,Google Ads,UCaaS,ucaas provider,Phrase,13028,501,2607.6,36,14701.4
+2026-08-07,Google Ads,UCaaS,cloud phone system,Phrase,10728,413,2147.26,30,12106.04
+2026-08-07,Google Ads,UCaaS,business voip solutions,Broad,7960,306,1593.21,22,8982.37
+2026-08-07,Google Ads,Managed Security,managed security services,Phrase,10580,364,2182.88,19,10420.15
+2026-08-07,Google Ads,Managed Security,network security provider,Phrase,8047,277,1660.27,14,7925.41
+2026-08-07,Google Ads,Managed Security,endpoint security business,Broad,7831,270,1615.69,14,7712.62
+2026-08-07,Google Ads,Enterprise Voice,enterprise voice solutions,Phrase,7049,284,2205.48,16,7803.97
+2026-08-07,Google Ads,Enterprise Voice,sip trunking provider,Phrase,6418,258,2008.03,14,7105.28
+2026-08-07,Google Ads,Enterprise Voice,business phone systems,Broad,4582,184,1433.51,10,5072.41
+2026-08-08,Google Ads,Brand Search,connectwave,Exact,5060,409,888.75,55,10706.37
+2026-08-08,Google Ads,Brand Search,connectwave communications,Phrase,2793,226,490.68,31,5910.97
+2026-08-08,Google Ads,Brand Search,connectwave login,Exact,1843,149,323.71,20,3899.57
+2026-08-08,Google Ads,Business Fiber,business fiber internet,Phrase,10455,539,1958.17,32,10015.5
+2026-08-08,Google Ads,Business Fiber,fiber internet for business,Phrase,7084,365,1326.88,22,6786.62
+2026-08-08,Google Ads,Business Fiber,dedicated fiber connection,Broad,6305,325,1180.84,19,6039.7
+2026-08-08,Google Ads,SD-WAN,sd-wan provider,Phrase,5020,197,1080.61,12,5635.1
+2026-08-08,Google Ads,SD-WAN,sd-wan solutions,Phrase,3121,123,671.82,8,3503.33
+2026-08-08,Google Ads,SD-WAN,managed sd-wan,Broad,2762,109,594.53,7,3100.31
+2026-08-08,Google Ads,UCaaS,ucaas provider,Phrase,6889,279,1431.52,20,8066.07
+2026-08-08,Google Ads,UCaaS,cloud phone system,Phrase,5846,237,1214.81,17,6844.98
+2026-08-08,Google Ads,UCaaS,business voip solutions,Broad,4316,175,896.85,13,5053.42
+2026-08-08,Google Ads,Managed Security,managed security services,Phrase,6240,217,1309.48,11,6190.6
+2026-08-08,Google Ads,Managed Security,network security provider,Phrase,4441,155,932.06,8,4406.34
+2026-08-08,Google Ads,Managed Security,endpoint security business,Broad,4704,164,987.13,8,4666.7
+2026-08-08,Google Ads,Enterprise Voice,enterprise voice solutions,Phrase,4364,171,1308.54,9,4434.16
+2026-08-08,Google Ads,Enterprise Voice,sip trunking provider,Phrase,3785,148,1135.05,8,3846.27
+2026-08-08,Google Ads,Enterprise Voice,business phone systems,Broad,2715,106,814.11,6,2758.7
+2026-08-09,Google Ads,Brand Search,connectwave,Exact,5233,403,877.26,49,9940.53
+2026-08-09,Google Ads,Brand Search,connectwave communications,Phrase,3002,231,503.28,28,5702.88
+2026-08-09,Google Ads,Brand Search,connectwave login,Exact,2097,162,351.52,20,3983.16
+2026-08-09,Google Ads,Business Fiber,business fiber internet,Phrase,10953,555,2216.86,36,10925.17
+2026-08-09,Google Ads,Business Fiber,fiber internet for business,Phrase,7615,386,1541.24,25,7595.59
+2026-08-09,Google Ads,Business Fiber,dedicated fiber connection,Broad,5715,290,1156.62,19,5700.07
+2026-08-09,Google Ads,SD-WAN,sd-wan provider,Phrase,5054,198,1085.92,12,5154.82
+2026-08-09,Google Ads,SD-WAN,sd-wan solutions,Phrase,3219,126,691.67,8,3283.31
+2026-08-09,Google Ads,SD-WAN,managed sd-wan,Broad,2801,110,601.77,7,2856.59
+2026-08-09,Google Ads,UCaaS,ucaas provider,Phrase,6356,245,1294.21,19,7499.84
+2026-08-09,Google Ads,UCaaS,cloud phone system,Phrase,5505,212,1120.95,16,6495.81
+2026-08-09,Google Ads,UCaaS,business voip solutions,Broad,3814,147,776.62,11,4500.47
+2026-08-09,Google Ads,Managed Security,managed security services,Phrase,6429,224,1354.54,12,6421.2
+2026-08-09,Google Ads,Managed Security,network security provider,Phrase,4424,154,932.08,8,4418.51
+2026-08-09,Google Ads,Managed Security,endpoint security business,Broad,4459,155,939.44,8,4453.39
+2026-08-09,Google Ads,Enterprise Voice,enterprise voice solutions,Phrase,4257,163,1196.79,10,4934.77
+2026-08-09,Google Ads,Enterprise Voice,sip trunking provider,Phrase,3798,145,1067.55,9,4401.86
+2026-08-09,Google Ads,Enterprise Voice,business phone systems,Broad,2822,108,793.14,7,3270.36
+2026-08-10,Google Ads,Brand Search,connectwave,Exact,10074,810,1712.95,97,19922.22
+2026-08-10,Google Ads,Brand Search,connectwave communications,Phrase,5941,478,1010.27,57,11749.77
+2026-08-10,Google Ads,Brand Search,connectwave login,Exact,4155,334,706.51,40,8216.96
+2026-08-10,Google Ads,Business Fiber,business fiber internet,Phrase,21827,1077,4223.91,63,19460.53
+2026-08-10,Google Ads,Business Fiber,fiber internet for business,Phrase,14059,693,2720.67,41,12534.77
+2026-08-10,Google Ads,Business Fiber,dedicated fiber connection,Broad,11918,588,2306.31,35,10625.73
+2026-08-10,Google Ads,SD-WAN,sd-wan provider,Phrase,9471,398,2098.81,27,12566.0
+2026-08-10,Google Ads,SD-WAN,sd-wan solutions,Phrase,6675,280,1479.15,19,8855.99
+2026-08-10,Google Ads,SD-WAN,managed sd-wan,Broad,5149,216,1140.95,15,6831.11
+2026-08-10,Google Ads,UCaaS,ucaas provider,Phrase,12572,528,2715.05,36,14790.62
+2026-08-10,Google Ads,UCaaS,cloud phone system,Phrase,11663,490,2518.58,33,13720.3
+2026-08-10,Google Ads,UCaaS,business voip solutions,Broad,7756,326,1674.94,22,9124.5
+2026-08-10,Google Ads,Managed Security,managed security services,Phrase,12132,423,2507.46,22,12023.42
+2026-08-10,Google Ads,Managed Security,network security provider,Phrase,8808,307,1820.46,16,8729.24
+2026-08-10,Google Ads,Managed Security,endpoint security business,Broad,9098,317,1880.39,16,9016.6
+2026-08-10,Google Ads,Enterprise Voice,enterprise voice solutions,Phrase,8214,332,2554.93,20,10272.74
+2026-08-10,Google Ads,Enterprise Voice,sip trunking provider,Phrase,7665,309,2384.13,19,9586.01
+2026-08-10,Google Ads,Enterprise Voice,business phone systems,Broad,5487,221,1706.78,13,6862.56
+2026-08-11,Google Ads,Brand Search,connectwave,Exact,9638,754,1665.67,94,19259.06
+2026-08-11,Google Ads,Brand Search,connectwave communications,Phrase,6178,483,1067.59,60,12343.78
+2026-08-11,Google Ads,Brand Search,connectwave login,Exact,3846,301,664.65,38,7684.85
+2026-08-11,Google Ads,Business Fiber,business fiber internet,Phrase,18852,921,3623.73,65,20018.16
+2026-08-11,Google Ads,Business Fiber,fiber internet for business,Phrase,12826,626,2465.44,45,13619.58
+2026-08-11,Google Ads,Business Fiber,dedicated fiber connection,Broad,10919,533,2098.96,38,11595.06
+2026-08-11,Google Ads,SD-WAN,sd-wan provider,Phrase,8860,371,2097.68,26,12200.42
+2026-08-11,Google Ads,SD-WAN,sd-wan solutions,Phrase,6139,257,1453.36,18,8452.99
+2026-08-11,Google Ads,SD-WAN,managed sd-wan,Broad,5436,227,1287.02,16,7485.53
+2026-08-11,Google Ads,UCaaS,ucaas provider,Phrase,14004,539,2915.02,36,14646.89
+2026-08-11,Google Ads,UCaaS,cloud phone system,Phrase,12996,500,2705.18,33,13592.56
+2026-08-11,Google Ads,UCaaS,business voip solutions,Broad,9228,355,1920.91,24,9651.86
+2026-08-11,Google Ads,Managed Security,managed security services,Phrase,12308,430,2570.59,23,12356.68
+2026-08-11,Google Ads,Managed Security,network security provider,Phrase,9739,340,2034.02,18,9777.43
+2026-08-11,Google Ads,Managed Security,endpoint security business,Broad,9340,326,1950.73,17,9377.05
+2026-08-11,Google Ads,Enterprise Voice,enterprise voice solutions,Phrase,8190,320,2524.21,19,9427.25
+2026-08-11,Google Ads,Enterprise Voice,sip trunking provider,Phrase,7396,289,2279.32,17,8512.63
+2026-08-11,Google Ads,Enterprise Voice,business phone systems,Broad,5415,211,1668.73,12,6232.24
+2026-08-12,Google Ads,Brand Search,connectwave,Exact,9129,763,1650.06,89,18316.4
+2026-08-12,Google Ads,Brand Search,connectwave communications,Phrase,5927,496,1071.32,58,11892.1
+2026-08-12,Google Ads,Brand Search,connectwave login,Exact,3711,310,670.85,36,7446.69
+2026-08-12,Google Ads,Business Fiber,business fiber internet,Phrase,20306,1039,3930.87,70,20592.36
+2026-08-12,Google Ads,Business Fiber,fiber internet for business,Phrase,14266,730,2761.54,49,14466.69
+2026-08-12,Google Ads,Business Fiber,dedicated fiber connection,Broad,11706,599,2265.95,40,11870.46
+2026-08-12,Google Ads,SD-WAN,sd-wan provider,Phrase,8920,358,1913.67,23,9919.87
+2026-08-12,Google Ads,SD-WAN,sd-wan solutions,Phrase,6347,255,1361.68,16,7058.5
+2026-08-12,Google Ads,SD-WAN,managed sd-wan,Broad,5354,215,1148.72,14,5954.58
+2026-08-12,Google Ads,UCaaS,ucaas provider,Phrase,12618,521,2698.22,37,14922.5
+2026-08-12,Google Ads,UCaaS,cloud phone system,Phrase,11796,487,2522.26,34,13949.36
+2026-08-12,Google Ads,UCaaS,business voip solutions,Broad,7902,326,1689.8,23,9345.41
+2026-08-12,Google Ads,Managed Security,managed security services,Phrase,11238,396,2345.39,20,11301.71
+2026-08-12,Google Ads,Managed Security,network security provider,Phrase,9227,325,1925.63,17,9278.98
+2026-08-12,Google Ads,Managed Security,endpoint security business,Broad,9196,324,1919.07,17,9247.41
+2026-08-12,Google Ads,Enterprise Voice,enterprise voice solutions,Phrase,7615,313,2488.14,17,8807.29
+2026-08-12,Google Ads,Enterprise Voice,sip trunking provider,Phrase,6522,268,2130.87,15,7542.67
+2026-08-12,Google Ads,Enterprise Voice,business phone systems,Broad,4947,203,1616.22,11,5720.94
+2026-08-13,Google Ads,Brand Search,connectwave,Exact,8487,689,1464.31,97,18983.19
+2026-08-13,Google Ads,Brand Search,connectwave communications,Phrase,5477,445,945.09,63,12252.07
+2026-08-13,Google Ads,Brand Search,connectwave login,Exact,3590,292,619.44,41,8030.39
+2026-08-13,Google Ads,Business Fiber,business fiber internet,Phrase,19196,936,3510.62,66,19033.67
+2026-08-13,Google Ads,Business Fiber,fiber internet for business,Phrase,13113,639,2398.21,45,13002.45
+2026-08-13,Google Ads,Business Fiber,dedicated fiber connection,Broad,11306,551,2067.71,39,11210.59
+2026-08-13,Google Ads,SD-WAN,sd-wan provider,Phrase,8825,346,1941.71,21,9630.3
+2026-08-13,Google Ads,SD-WAN,sd-wan solutions,Phrase,6511,255,1432.49,16,7104.73
+2026-08-13,Google Ads,SD-WAN,managed sd-wan,Broad,5039,198,1108.66,12,5498.64
+2026-08-13,Google Ads,UCaaS,ucaas provider,Phrase,13453,511,2707.39,33,12900.92
+2026-08-13,Google Ads,UCaaS,cloud phone system,Phrase,11088,421,2231.34,27,10632.5
+2026-08-13,Google Ads,UCaaS,business voip solutions,Broad,8870,337,1785.13,22,8506.26
+2026-08-13,Google Ads,Managed Security,managed security services,Phrase,11795,419,2518.14,22,11989.86
+2026-08-13,Google Ads,Managed Security,network security provider,Phrase,8838,314,1886.74,16,8983.5
+2026-08-13,Google Ads,Managed Security,endpoint security business,Broad,8178,290,1745.83,15,8312.59
+2026-08-13,Google Ads,Enterprise Voice,enterprise voice solutions,Phrase,8818,350,2688.33,19,9280.11
+2026-08-13,Google Ads,Enterprise Voice,sip trunking provider,Phrase,7468,296,2276.95,16,7860.03
+2026-08-13,Google Ads,Enterprise Voice,business phone systems,Broad,5311,211,1619.2,11,5589.45
+2026-08-14,Google Ads,Brand Search,connectwave,Exact,9224,757,1603.46,108,20791.15
+2026-08-14,Google Ads,Brand Search,connectwave communications,Phrase,5486,450,953.71,64,12366.2
+2026-08-14,Google Ads,Brand Search,connectwave login,Exact,3516,288,611.22,41,7925.32
+2026-08-14,Google Ads,Business Fiber,business fiber internet,Phrase,18685,888,3426.31,57,17468.75
+2026-08-14,Google Ads,Business Fiber,fiber internet for business,Phrase,12362,588,2266.83,38,11557.24
+2026-08-14,Google Ads,Business Fiber,dedicated fiber connection,Broad,9901,471,1815.55,30,9256.43
+2026-08-14,Google Ads,SD-WAN,sd-wan provider,Phrase,9206,356,1937.41,24,11051.0
+2026-08-14,Google Ads,SD-WAN,sd-wan solutions,Phrase,6138,237,1291.73,16,7368.04
+2026-08-14,Google Ads,SD-WAN,managed sd-wan,Broad,4879,188,1026.71,13,5856.37
+2026-08-14,Google Ads,UCaaS,ucaas provider,Phrase,11428,439,2409.04,31,12362.99
+2026-08-14,Google Ads,UCaaS,cloud phone system,Phrase,9444,363,1990.89,26,10217.1
+2026-08-14,Google Ads,UCaaS,business voip solutions,Broad,7333,281,1545.8,20,7932.9
+2026-08-14,Google Ads,Managed Security,managed security services,Phrase,10728,374,2251.31,20,10894.47
+2026-08-14,Google Ads,Managed Security,network security provider,Phrase,8669,302,1819.05,16,8802.69
+2026-08-14,Google Ads,Managed Security,endpoint security business,Broad,8059,281,1691.21,15,8184.05
+2026-08-14,Google Ads,Enterprise Voice,enterprise voice solutions,Phrase,6630,267,2147.7,16,8217.22
+2026-08-14,Google Ads,Enterprise Voice,sip trunking provider,Phrase,5796,233,1877.4,14,7183.05
+2026-08-14,Google Ads,Enterprise Voice,business phone systems,Broad,4188,168,1356.61,10,5190.45
+2026-08-15,Google Ads,Brand Search,connectwave,Exact,4912,402,867.77,48,9893.39
+2026-08-15,Google Ads,Brand Search,connectwave communications,Phrase,2970,243,524.76,29,5982.77
+2026-08-15,Google Ads,Brand Search,connectwave login,Exact,2044,167,361.08,20,4116.67
+2026-08-15,Google Ads,Business Fiber,business fiber internet,Phrase,10880,544,1986.13,35,10684.81
+2026-08-15,Google Ads,Business Fiber,fiber internet for business,Phrase,7706,385,1406.77,25,7568.03
+2026-08-15,Google Ads,Business Fiber,dedicated fiber connection,Broad,6115,306,1116.27,20,6005.21
+2026-08-15,Google Ads,SD-WAN,sd-wan provider,Phrase,4862,204,1175.3,14,6171.95
+2026-08-15,Google Ads,SD-WAN,sd-wan solutions,Phrase,3430,144,829.01,10,4353.45
+2026-08-15,Google Ads,SD-WAN,managed sd-wan,Broad,2759,116,666.9,8,3502.16
+2026-08-15,Google Ads,UCaaS,ucaas provider,Phrase,7785,313,1670.4,23,9338.49
+2026-08-15,Google Ads,UCaaS,cloud phone system,Phrase,6343,255,1361.15,19,7609.58
+2026-08-15,Google Ads,UCaaS,business voip solutions,Broad,4349,175,933.2,13,5217.12
+2026-08-15,Google Ads,Managed Security,managed security services,Phrase,6707,231,1389.07,12,6748.76
+2026-08-15,Google Ads,Managed Security,network security provider,Phrase,5169,178,1070.62,9,5201.57
+2026-08-15,Google Ads,Managed Security,endpoint security business,Broad,5127,177,1061.84,9,5158.93
+2026-08-15,Google Ads,Enterprise Voice,enterprise voice solutions,Phrase,4232,162,849.17,10,5017.35
+2026-08-15,Google Ads,Enterprise Voice,sip trunking provider,Phrase,3477,133,697.59,8,4121.74
+2026-08-15,Google Ads,Enterprise Voice,business phone systems,Broad,2465,94,494.59,6,2922.32
+2026-08-16,Google Ads,Brand Search,connectwave,Exact,5125,415,892.07,52,10360.38
+2026-08-16,Google Ads,Brand Search,connectwave communications,Phrase,3153,255,548.83,32,6374.04
+2026-08-16,Google Ads,Brand Search,connectwave login,Exact,1949,158,339.28,20,3940.34
+2026-08-16,Google Ads,Business Fiber,business fiber internet,Phrase,9726,501,1911.75,32,9674.6
+2026-08-16,Google Ads,Business Fiber,fiber internet for business,Phrase,6464,333,1270.6,21,6430.01
+2026-08-16,Google Ads,Business Fiber,dedicated fiber connection,Broad,5893,304,1158.29,19,5861.66
+2026-08-16,Google Ads,SD-WAN,sd-wan provider,Phrase,5265,214,1128.18,14,6599.34
+2026-08-16,Google Ads,SD-WAN,sd-wan solutions,Phrase,3583,146,767.69,10,4490.62
+2026-08-16,Google Ads,SD-WAN,managed sd-wan,Broad,2855,116,611.64,8,3577.81
+2026-08-16,Google Ads,UCaaS,ucaas provider,Phrase,7096,271,1416.58,19,7461.24
+2026-08-16,Google Ads,UCaaS,cloud phone system,Phrase,6104,233,1218.57,16,6418.32
+2026-08-16,Google Ads,UCaaS,business voip solutions,Broad,4499,172,898.17,12,4730.75
+2026-08-16,Google Ads,Managed Security,managed security services,Phrase,6441,228,1364.76,12,6498.66
+2026-08-16,Google Ads,Managed Security,network security provider,Phrase,4558,161,965.62,9,4598.04
+2026-08-16,Google Ads,Managed Security,endpoint security business,Broad,4796,169,1016.1,9,4838.4
+2026-08-16,Google Ads,Enterprise Voice,enterprise voice solutions,Phrase,3853,157,882.64,9,4501.71
+2026-08-16,Google Ads,Enterprise Voice,sip trunking provider,Phrase,3653,149,836.91,8,4268.5
+2026-08-16,Google Ads,Enterprise Voice,business phone systems,Broad,2393,98,548.23,5,2796.14
+2026-08-17,Google Ads,Brand Search,connectwave,Exact,10578,826,1888.97,113,21544.09
+2026-08-17,Google Ads,Brand Search,connectwave communications,Phrase,6209,485,1108.76,66,12645.7
+2026-08-17,Google Ads,Brand Search,connectwave login,Exact,3899,305,696.3,42,7941.46
+2026-08-17,Google Ads,Business Fiber,business fiber internet,Phrase,20708,1012,3677.08,69,20693.31
+2026-08-17,Google Ads,Business Fiber,fiber internet for business,Phrase,13940,681,2475.39,46,13930.6
+2026-08-17,Google Ads,Business Fiber,dedicated fiber connection,Broad,11876,580,2108.74,39,11867.21
+2026-08-17,Google Ads,SD-WAN,sd-wan provider,Phrase,9533,380,2058.67,24,11056.73
+2026-08-17,Google Ads,SD-WAN,sd-wan solutions,Phrase,5782,230,1248.7,15,6706.51
+2026-08-17,Google Ads,SD-WAN,managed sd-wan,Broad,5257,209,1135.37,13,6097.85
+2026-08-17,Google Ads,UCaaS,ucaas provider,Phrase,12576,491,2588.85,35,14253.65
+2026-08-17,Google Ads,UCaaS,cloud phone system,Phrase,11303,441,2326.82,31,12810.97
+2026-08-17,Google Ads,UCaaS,business voip solutions,Broad,8624,336,1775.36,24,9774.73
+2026-08-17,Google Ads,Managed Security,managed security services,Phrase,10986,380,2324.83,20,10948.67
+2026-08-17,Google Ads,Managed Security,network security provider,Phrase,8356,289,1768.12,15,8326.88
+2026-08-17,Google Ads,Managed Security,endpoint security business,Broad,8828,306,1868.15,16,8797.94
+2026-08-17,Google Ads,Enterprise Voice,enterprise voice solutions,Phrase,8180,326,1773.45,18,9289.67
+2026-08-17,Google Ads,Enterprise Voice,sip trunking provider,Phrase,7032,280,1524.62,15,7986.24
+2026-08-17,Google Ads,Enterprise Voice,business phone systems,Broad,5111,204,1108.02,11,5804.03
+2026-08-18,Google Ads,Brand Search,connectwave,Exact,9254,734,1650.74,91,17405.82
+2026-08-18,Google Ads,Brand Search,connectwave communications,Phrase,5960,473,1063.12,59,11209.85
+2026-08-18,Google Ads,Brand Search,connectwave login,Exact,3676,292,655.77,36,6914.66
+2026-08-18,Google Ads,Business Fiber,business fiber internet,Phrase,21309,1066,4212.31,65,20008.91
+2026-08-18,Google Ads,Business Fiber,fiber internet for business,Phrase,12938,647,2557.63,39,12149.0
+2026-08-18,Google Ads,Business Fiber,dedicated fiber connection,Broad,11128,557,2199.79,34,10449.24
+2026-08-18,Google Ads,SD-WAN,sd-wan provider,Phrase,10953,458,2410.51,29,12873.74
+2026-08-18,Google Ads,SD-WAN,sd-wan solutions,Phrase,7485,313,1647.36,20,8797.99
+2026-08-18,Google Ads,SD-WAN,managed sd-wan,Broad,6148,257,1353.1,16,7226.49
+2026-08-18,Google Ads,UCaaS,ucaas provider,Phrase,13941,548,3052.36,35,13420.33
+2026-08-18,Google Ads,UCaaS,cloud phone system,Phrase,12501,492,2736.96,31,12033.62
+2026-08-18,Google Ads,UCaaS,business voip solutions,Broad,8906,350,1949.94,22,8573.3
+2026-08-18,Google Ads,Managed Security,managed security services,Phrase,11444,403,2411.26,21,11536.69
+2026-08-18,Google Ads,Managed Security,network security provider,Phrase,9299,327,1959.26,17,9374.08
+2026-08-18,Google Ads,Managed Security,endpoint security business,Broad,9467,333,1994.7,17,9543.64
+2026-08-18,Google Ads,Enterprise Voice,enterprise voice solutions,Phrase,9080,363,2050.59,20,10403.98
+2026-08-18,Google Ads,Enterprise Voice,sip trunking provider,Phrase,7184,287,1622.56,16,8232.3
+2026-08-18,Google Ads,Enterprise Voice,business phone systems,Broad,5641,226,1273.9,12,6463.32
+2026-08-19,Google Ads,Brand Search,connectwave,Exact,9034,747,1705.95,106,20078.41
+2026-08-19,Google Ads,Brand Search,connectwave communications,Phrase,5624,465,1062.0,66,12499.36
+2026-08-19,Google Ads,Brand Search,connectwave login,Exact,3583,296,676.63,42,7963.68
+2026-08-19,Google Ads,Business Fiber,business fiber internet,Phrase,19998,1035,4021.53,62,18606.7
+2026-08-19,Google Ads,Business Fiber,fiber internet for business,Phrase,13418,694,2698.45,41,12485.1
+2026-08-19,Google Ads,Business Fiber,dedicated fiber connection,Broad,11718,606,2356.44,36,10902.7
+2026-08-19,Google Ads,SD-WAN,sd-wan provider,Phrase,9571,382,2011.36,27,12426.45
+2026-08-19,Google Ads,SD-WAN,sd-wan solutions,Phrase,6448,258,1355.03,18,8371.51
+2026-08-19,Google Ads,SD-WAN,managed sd-wan,Broad,5254,210,1104.13,15,6821.43
+2026-08-19,Google Ads,UCaaS,ucaas provider,Phrase,12584,524,3047.1,37,15041.71
+2026-08-19,Google Ads,UCaaS,cloud phone system,Phrase,11552,481,2797.29,34,13808.55
+2026-08-19,Google Ads,UCaaS,business voip solutions,Broad,7963,332,1928.21,23,9518.42
+2026-08-19,Google Ads,Managed Security,managed security services,Phrase,11419,392,2353.65,20,11304.5
+2026-08-19,Google Ads,Managed Security,network security provider,Phrase,8758,301,1805.16,16,8670.12
+2026-08-19,Google Ads,Managed Security,endpoint security business,Broad,8944,307,1843.49,16,8854.26
+2026-08-19,Google Ads,Enterprise Voice,enterprise voice solutions,Phrase,7373,304,1602.77,18,8995.04
+2026-08-19,Google Ads,Enterprise Voice,sip trunking provider,Phrase,6912,285,1502.62,17,8433.0
+2026-08-19,Google Ads,Enterprise Voice,business phone systems,Broad,4697,194,1021.1,12,5730.63
+2026-08-20,Google Ads,Brand Search,connectwave,Exact,9558,783,1690.43,97,18551.12
+2026-08-20,Google Ads,Brand Search,connectwave communications,Phrase,5966,489,1055.25,60,11580.5
+2026-08-20,Google Ads,Brand Search,connectwave login,Exact,3841,315,679.41,39,7455.94
+2026-08-20,Google Ads,Business Fiber,business fiber internet,Phrase,19335,994,3808.58,43,12536.49
+2026-08-20,Google Ads,Business Fiber,fiber internet for business,Phrase,12473,641,2456.87,28,8087.16
+2026-08-20,Google Ads,Business Fiber,dedicated fiber connection,Broad,10926,562,2152.17,24,7084.18
+2026-08-20,Google Ads,SD-WAN,sd-wan provider,Phrase,6440,255,1408.62,18,7834.33
+2026-08-20,Google Ads,SD-WAN,sd-wan solutions,Phrase,4614,183,1009.18,13,5612.77
+2026-08-20,Google Ads,SD-WAN,managed sd-wan,Broad,3624,144,792.72,10,4408.89
+2026-08-20,Google Ads,UCaaS,ucaas provider,Phrase,13103,512,2773.66,33,13597.49
+2026-08-20,Google Ads,UCaaS,cloud phone system,Phrase,11469,448,2427.8,29,11901.95
+2026-08-20,Google Ads,UCaaS,business voip solutions,Broad,8209,321,1737.64,21,8518.57
+2026-08-20,Google Ads,Managed Security,managed security services,Phrase,11356,392,2391.29,21,11415.37
+2026-08-20,Google Ads,Managed Security,network security provider,Phrase,8966,310,1887.99,16,9012.74
+2026-08-20,Google Ads,Managed Security,endpoint security business,Broad,8695,300,1831.12,16,8741.27
+2026-08-20,Google Ads,Enterprise Voice,enterprise voice solutions,Phrase,8215,315,1689.82,18,8995.58
+2026-08-20,Google Ads,Enterprise Voice,sip trunking provider,Phrase,6437,247,1324.1,14,7048.75
+2026-08-20,Google Ads,Enterprise Voice,business phone systems,Broad,4699,180,966.47,10,5144.89
+2026-08-21,Google Ads,Brand Search,connectwave,Exact,8870,727,1559.87,94,19289.95
+2026-08-21,Google Ads,Brand Search,connectwave communications,Phrase,5172,424,909.42,55,11246.22
+2026-08-21,Google Ads,Brand Search,connectwave login,Exact,3377,277,593.89,36,7344.3
+2026-08-21,Google Ads,Business Fiber,business fiber internet,Phrase,17038,811,3180.88,42,11995.51
+2026-08-21,Google Ads,Business Fiber,fiber internet for business,Phrase,11827,563,2208.09,29,8326.99
+2026-08-21,Google Ads,Business Fiber,dedicated fiber connection,Broad,9453,450,1764.81,23,6655.34
+2026-08-21,Google Ads,SD-WAN,sd-wan provider,Phrase,6988,276,1537.54,18,8283.48
+2026-08-21,Google Ads,SD-WAN,sd-wan solutions,Phrase,4439,175,976.72,12,5262.08
+2026-08-21,Google Ads,SD-WAN,managed sd-wan,Broad,3553,140,781.66,9,4211.17
+2026-08-21,Google Ads,UCaaS,ucaas provider,Phrase,11614,479,2591.14,31,12738.95
+2026-08-21,Google Ads,UCaaS,cloud phone system,Phrase,10352,427,2309.71,27,11355.31
+2026-08-21,Google Ads,UCaaS,business voip solutions,Broad,6915,285,1542.73,18,7584.59
+2026-08-21,Google Ads,Managed Security,managed security services,Phrase,10343,368,2204.35,19,10440.13
+2026-08-21,Google Ads,Managed Security,network security provider,Phrase,7894,281,1682.3,14,7967.59
+2026-08-21,Google Ads,Managed Security,endpoint security business,Broad,7370,262,1570.62,14,7438.7
+2026-08-21,Google Ads,Enterprise Voice,enterprise voice solutions,Phrase,6891,263,1441.15,14,7261.2
+2026-08-21,Google Ads,Enterprise Voice,sip trunking provider,Phrase,6421,245,1342.69,13,6765.11
+2026-08-21,Google Ads,Enterprise Voice,business phone systems,Broad,4594,175,960.75,10,4840.73
+2026-08-22,Google Ads,Brand Search,connectwave,Exact,4742,368,790.59,51,9784.96
+2026-08-22,Google Ads,Brand Search,connectwave communications,Phrase,2916,226,486.23,32,6017.96
+2026-08-22,Google Ads,Brand Search,connectwave login,Exact,1874,145,312.44,20,3866.97
+2026-08-22,Google Ads,Business Fiber,business fiber internet,Phrase,10940,533,1984.23,24,7378.74
+2026-08-22,Google Ads,Business Fiber,fiber internet for business,Phrase,7533,367,1366.2,17,5080.46
+2026-08-22,Google Ads,Business Fiber,dedicated fiber connection,Broad,5858,285,1062.41,13,3950.78
+2026-08-22,Google Ads,SD-WAN,sd-wan provider,Phrase,3246,127,673.1,8,3586.38
+2026-08-22,Google Ads,SD-WAN,sd-wan solutions,Phrase,2210,86,458.33,5,2442.04
+2026-08-22,Google Ads,SD-WAN,managed sd-wan,Broad,1895,74,392.92,4,2093.52
+2026-08-22,Google Ads,UCaaS,ucaas provider,Phrase,7076,287,1691.58,21,8917.79
+2026-08-22,Google Ads,UCaaS,cloud phone system,Phrase,6235,253,1490.65,19,7858.48
+2026-08-22,Google Ads,UCaaS,business voip solutions,Broad,4376,177,1046.28,13,5515.84
+2026-08-22,Google Ads,Managed Security,managed security services,Phrase,6491,228,1366.58,12,6563.9
+2026-08-22,Google Ads,Managed Security,network security provider,Phrase,4902,172,1032.03,9,4956.98
+2026-08-22,Google Ads,Managed Security,endpoint security business,Broad,4557,160,959.37,8,4608.0
+2026-08-22,Google Ads,Enterprise Voice,enterprise voice solutions,Phrase,4740,190,1031.35,10,5115.04
+2026-08-22,Google Ads,Enterprise Voice,sip trunking provider,Phrase,3888,156,845.98,8,4195.65
+2026-08-22,Google Ads,Enterprise Voice,business phone systems,Broad,2818,113,613.24,6,3041.39
+2026-08-23,Google Ads,Brand Search,connectwave,Exact,5314,437,1008.15,62,11899.06
+2026-08-23,Google Ads,Brand Search,connectwave communications,Phrase,3238,266,614.29,38,7250.32
+2026-08-23,Google Ads,Brand Search,connectwave login,Exact,1994,164,378.22,23,4464.1
+2026-08-23,Google Ads,Business Fiber,business fiber internet,Phrase,10811,528,2069.62,27,7662.39
+2026-08-23,Google Ads,Business Fiber,fiber internet for business,Phrase,7363,360,1409.49,18,5218.37
+2026-08-23,Google Ads,Business Fiber,dedicated fiber connection,Broad,5664,277,1084.26,14,4014.26
+2026-08-23,Google Ads,SD-WAN,sd-wan provider,Phrase,3821,149,845.4,10,4488.15
+2026-08-23,Google Ads,SD-WAN,sd-wan solutions,Phrase,2540,99,561.93,7,2983.23
+2026-08-23,Google Ads,SD-WAN,managed sd-wan,Broad,2270,88,502.12,6,2665.74
+2026-08-23,Google Ads,UCaaS,ucaas provider,Phrase,7572,313,1750.31,22,9209.14
+2026-08-23,Google Ads,UCaaS,cloud phone system,Phrase,6149,254,1421.5,18,7479.1
+2026-08-23,Google Ads,UCaaS,business voip solutions,Broad,4671,193,1079.79,14,5681.23
+2026-08-23,Google Ads,Managed Security,managed security services,Phrase,6131,211,1282.02,11,6120.82
+2026-08-23,Google Ads,Managed Security,network security provider,Phrase,5024,173,1050.54,9,5015.67
+2026-08-23,Google Ads,Managed Security,endpoint security business,Broad,4716,162,986.13,9,4708.14
+2026-08-23,Google Ads,Enterprise Voice,enterprise voice solutions,Phrase,4597,185,1024.19,10,5341.03
+2026-08-23,Google Ads,Enterprise Voice,sip trunking provider,Phrase,4180,168,931.23,9,4856.25
+2026-08-23,Google Ads,Enterprise Voice,business phone systems,Broad,2963,119,660.17,7,3442.73
+2026-08-24,Google Ads,Brand Search,connectwave,Exact,8859,689,1519.42,81,16755.84
+2026-08-24,Google Ads,Brand Search,connectwave communications,Phrase,5521,429,946.86,50,10441.79
+2026-08-24,Google Ads,Brand Search,connectwave login,Exact,3909,304,670.44,36,7393.46
+2026-08-24,Google Ads,Business Fiber,business fiber internet,Phrase,19896,958,3719.61,49,15056.49
+2026-08-24,Google Ads,Business Fiber,fiber internet for business,Phrase,12884,620,2408.63,32,9749.81
+2026-08-24,Google Ads,Business Fiber,dedicated fiber connection,Broad,10970,528,2050.88,27,8301.7
+2026-08-24,Google Ads,SD-WAN,sd-wan provider,Phrase,6803,259,1437.39,18,8345.5
+2026-08-24,Google Ads,SD-WAN,sd-wan solutions,Phrase,4649,177,982.32,12,5703.34
+2026-08-24,Google Ads,SD-WAN,managed sd-wan,Broad,4010,153,847.3,11,4919.42
+2026-08-24,Google Ads,UCaaS,ucaas provider,Phrase,13478,558,3400.51,38,15918.53
+2026-08-24,Google Ads,UCaaS,cloud phone system,Phrase,12333,511,3111.44,35,14565.35
+2026-08-24,Google Ads,UCaaS,business voip solutions,Broad,8842,366,2230.87,25,10443.2
+2026-08-24,Google Ads,Managed Security,managed security services,Phrase,10848,381,2279.68,20,10944.84
+2026-08-24,Google Ads,Managed Security,network security provider,Phrase,9051,318,1902.11,17,9132.12
+2026-08-24,Google Ads,Managed Security,endpoint security business,Broad,8951,315,1881.18,17,9031.63
+2026-08-24,Google Ads,Enterprise Voice,enterprise voice solutions,Phrase,7765,325,1837.03,21,10557.84
+2026-08-24,Google Ads,Enterprise Voice,sip trunking provider,Phrase,6815,285,1612.31,18,9266.33
+2026-08-24,Google Ads,Enterprise Voice,business phone systems,Broad,5109,214,1208.65,14,6946.37
+2026-08-25,Google Ads,Brand Search,connectwave,Exact,9178,741,1576.75,92,18820.98
+2026-08-25,Google Ads,Brand Search,connectwave communications,Phrase,5782,467,993.45,58,11858.38
+2026-08-25,Google Ads,Brand Search,connectwave login,Exact,3925,317,674.26,39,8048.38
+2026-08-25,Google Ads,Business Fiber,business fiber internet,Phrase,18557,949,3768.43,48,14341.62
+2026-08-25,Google Ads,Business Fiber,fiber internet for business,Phrase,12774,653,2594.02,33,9872.14
+2026-08-25,Google Ads,Business Fiber,dedicated fiber connection,Broad,10921,559,2217.73,28,8440.08
+2026-08-25,Google Ads,SD-WAN,sd-wan provider,Phrase,8175,342,1794.18,23,10530.28
+2026-08-25,Google Ads,SD-WAN,sd-wan solutions,Phrase,5213,218,1144.16,14,6715.26
+2026-08-25,Google Ads,SD-WAN,managed sd-wan,Broad,4282,179,939.81,12,5515.88
+2026-08-25,Google Ads,UCaaS,ucaas provider,Phrase,15615,607,3575.18,46,17821.0
+2026-08-25,Google Ads,UCaaS,cloud phone system,Phrase,13564,527,3105.71,40,15480.86
+2026-08-25,Google Ads,UCaaS,business voip solutions,Broad,9519,370,2179.43,28,10863.71
+2026-08-25,Google Ads,Managed Security,managed security services,Phrase,12081,429,2533.39,22,12237.91
+2026-08-25,Google Ads,Managed Security,network security provider,Phrase,9832,349,2061.76,18,9959.63
+2026-08-25,Google Ads,Managed Security,endpoint security business,Broad,9840,350,2063.37,18,9967.44
+2026-08-25,Google Ads,Enterprise Voice,enterprise voice solutions,Phrase,8938,343,1924.97,21,10741.85
+2026-08-25,Google Ads,Enterprise Voice,sip trunking provider,Phrase,7520,288,1619.4,17,9036.74
+2026-08-25,Google Ads,Enterprise Voice,business phone systems,Broad,5559,213,1197.28,13,6681.17
+2026-08-26,Google Ads,Brand Search,connectwave,Exact,9322,709,1541.05,96,20137.31
+2026-08-26,Google Ads,Brand Search,connectwave communications,Phrase,5625,428,929.88,58,12150.93
+2026-08-26,Google Ads,Brand Search,connectwave login,Exact,3554,270,587.45,37,7676.31
+2026-08-26,Google Ads,Business Fiber,business fiber internet,Phrase,21832,1091,4094.98,52,14817.72
+2026-08-26,Google Ads,Business Fiber,fiber internet for business,Phrase,14826,741,2780.91,35,10062.76
+2026-08-26,Google Ads,Business Fiber,dedicated fiber connection,Broad,12144,607,2277.76,29,8242.08
+2026-08-26,Google Ads,SD-WAN,sd-wan provider,Phrase,7386,306,1709.47,20,8881.16
+2026-08-26,Google Ads,SD-WAN,sd-wan solutions,Phrase,4754,197,1100.27,13,5716.24
+2026-08-26,Google Ads,SD-WAN,managed sd-wan,Broad,3760,156,870.14,10,4520.63
+2026-08-26,Google Ads,UCaaS,ucaas provider,Phrase,12631,523,2995.01,35,14741.67
+2026-08-26,Google Ads,UCaaS,cloud phone system,Phrase,10616,439,2517.27,30,12390.19
+2026-08-26,Google Ads,UCaaS,business voip solutions,Broad,7634,316,1810.16,21,8909.74
+2026-08-26,Google Ads,Managed Security,managed security services,Phrase,11188,393,2378.88,20,11193.38
+2026-08-26,Google Ads,Managed Security,network security provider,Phrase,8695,306,1848.97,16,8699.97
+2026-08-26,Google Ads,Managed Security,endpoint security business,Broad,8369,294,1779.48,15,8373.04
+2026-08-26,Google Ads,Enterprise Voice,enterprise voice solutions,Phrase,8750,364,1920.22,22,11006.18
+2026-08-26,Google Ads,Enterprise Voice,sip trunking provider,Phrase,7261,302,1593.35,18,9132.62
+2026-08-26,Google Ads,Enterprise Voice,business phone systems,Broad,5305,221,1164.1,13,6672.29
+2026-08-27,Google Ads,Brand Search,connectwave,Exact,8727,670,1431.33,82,16632.21
+2026-08-27,Google Ads,Brand Search,connectwave communications,Phrase,5104,392,837.01,48,9726.07
+2026-08-27,Google Ads,Brand Search,connectwave login,Exact,3504,269,574.63,33,6677.24
+2026-08-27,Google Ads,Business Fiber,business fiber internet,Phrase,20153,1031,3825.17,46,13456.35
+2026-08-27,Google Ads,Business Fiber,fiber internet for business,Phrase,13581,695,2577.8,31,9068.31
+2026-08-27,Google Ads,Business Fiber,dedicated fiber connection,Broad,11448,586,2172.84,26,7643.71
+2026-08-27,Google Ads,SD-WAN,sd-wan provider,Phrase,6285,253,1439.98,15,6724.11
+2026-08-27,Google Ads,SD-WAN,sd-wan solutions,Phrase,4358,175,998.43,11,4662.25
+2026-08-27,Google Ads,SD-WAN,managed sd-wan,Broad,3671,148,841.09,9,3927.55
+2026-08-27,Google Ads,UCaaS,ucaas provider,Phrase,12495,489,2910.08,35,13561.37
+2026-08-27,Google Ads,UCaaS,cloud phone system,Phrase,11689,458,2722.38,33,12686.63
+2026-08-27,Google Ads,UCaaS,business voip solutions,Broad,8312,326,1935.82,23,9021.17
+2026-08-27,Google Ads,Managed Security,managed security services,Phrase,10600,372,2221.49,19,10593.37
+2026-08-27,Google Ads,Managed Security,network security provider,Phrase,7476,262,1566.93,14,7472.04
+2026-08-27,Google Ads,Managed Security,endpoint security business,Broad,7591,266,1590.87,14,7586.19
+2026-08-27,Google Ads,Enterprise Voice,enterprise voice solutions,Phrase,8609,338,1838.64,20,10050.96
+2026-08-27,Google Ads,Enterprise Voice,sip trunking provider,Phrase,7116,279,1519.82,16,8308.14
+2026-08-27,Google Ads,Enterprise Voice,business phone systems,Broad,5431,213,1159.95,12,6340.9
+2026-08-28,Google Ads,Brand Search,connectwave,Exact,8357,653,1430.97,80,15634.14
+2026-08-28,Google Ads,Brand Search,connectwave communications,Phrase,5093,398,872.08,49,9527.96
+2026-08-28,Google Ads,Brand Search,connectwave login,Exact,3380,264,578.8,32,6323.77
+2026-08-28,Google Ads,Business Fiber,business fiber internet,Phrase,17582,902,3482.29,38,11406.85
+2026-08-28,Google Ads,Business Fiber,fiber internet for business,Phrase,11520,591,2281.7,25,7474.1
+2026-08-28,Google Ads,Business Fiber,dedicated fiber connection,Broad,9155,469,1813.2,20,5939.46
+2026-08-28,Google Ads,SD-WAN,sd-wan provider,Phrase,6609,277,1536.06,18,8370.92
+2026-08-28,Google Ads,SD-WAN,sd-wan solutions,Phrase,4036,169,938.02,11,5111.85
+2026-08-28,Google Ads,SD-WAN,managed sd-wan,Broad,3698,155,859.37,10,4683.24
+2026-08-28,Google Ads,UCaaS,ucaas provider,Phrase,12094,480,2816.9,36,14384.39
+2026-08-28,Google Ads,UCaaS,cloud phone system,Phrase,11603,460,2702.56,35,13800.52
+2026-08-28,Google Ads,UCaaS,business voip solutions,Broad,8165,324,1901.88,24,9711.89
+2026-08-28,Google Ads,Managed Security,managed security services,Phrase,11667,405,2470.8,21,11792.3
+2026-08-28,Google Ads,Managed Security,network security provider,Phrase,8627,299,1827.02,16,8719.74
+2026-08-28,Google Ads,Managed Security,endpoint security business,Broad,8445,293,1788.43,15,8535.56
+2026-08-28,Google Ads,Enterprise Voice,enterprise voice solutions,Phrase,7461,299,1707.47,19,9452.16
+2026-08-28,Google Ads,Enterprise Voice,sip trunking provider,Phrase,6970,279,1595.24,17,8830.88
+2026-08-28,Google Ads,Enterprise Voice,business phone systems,Broad,4987,200,1141.37,12,6318.4
+2026-08-29,Google Ads,Brand Search,connectwave,Exact,5333,440,931.29,56,11780.77
+2026-08-29,Google Ads,Brand Search,connectwave communications,Phrase,3348,276,584.7,35,7396.48
+2026-08-29,Google Ads,Brand Search,connectwave login,Exact,2301,190,401.82,24,5083.01
+2026-08-29,Google Ads,Business Fiber,business fiber internet,Phrase,10269,539,2074.3,27,7865.82
+2026-08-29,Google Ads,Business Fiber,fiber internet for business,Phrase,7320,384,1478.61,19,5606.92
+2026-08-29,Google Ads,Business Fiber,dedicated fiber connection,Broad,6113,321,1234.85,16,4682.6
+2026-08-29,Google Ads,SD-WAN,sd-wan provider,Phrase,3843,160,842.31,10,4481.75
+2026-08-29,Google Ads,SD-WAN,sd-wan solutions,Phrase,2637,110,578.05,7,3075.67
+2026-08-29,Google Ads,SD-WAN,managed sd-wan,Broad,2056,86,450.74,5,2398.26
+2026-08-29,Google Ads,UCaaS,ucaas provider,Phrase,6598,258,1503.16,19,7986.99
+2026-08-29,Google Ads,UCaaS,cloud phone system,Phrase,6037,236,1375.33,18,7307.78
+2026-08-29,Google Ads,UCaaS,business voip solutions,Broad,4394,172,1001.01,13,5318.86
+2026-08-29,Google Ads,Managed Security,managed security services,Phrase,6534,228,1369.08,12,6564.89
+2026-08-29,Google Ads,Managed Security,network security provider,Phrase,4878,170,1022.08,9,4900.96
+2026-08-29,Google Ads,Managed Security,endpoint security business,Broad,4924,172,1031.69,9,4947.07
+2026-08-29,Google Ads,Enterprise Voice,enterprise voice solutions,Phrase,4169,168,949.2,11,5600.13
+2026-08-29,Google Ads,Enterprise Voice,sip trunking provider,Phrase,3624,146,825.0,9,4867.4
+2026-08-29,Google Ads,Enterprise Voice,business phone systems,Broad,2621,106,596.76,7,3520.77

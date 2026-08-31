@@ -1,0 +1,7 @@
+date,platform,campaign,entity,change_type,old_value,new_value,changed_by,notes
+2026-06-11,Google Ads,Brand Search,Ad Creative,creative_updated,Headline v1,Headline v2,Marketing Team,"Refreshed ad copy, no measurable performance shift."
+2026-06-21,Google Ads,UCaaS,Targeting,targeting_changed,National,National + top 20 metros priority,PPC Team,"Added geo bid adjustments, minimal observed impact."
+2026-07-10,Google Ads,Business Fiber,Landing Page,landing_page_changed,v3-template,v4-template,Marketing Team,Redesigned lead form on the Business Fiber landing page.
+2026-07-25,Google Ads,Enterprise Voice,Bid Strategy,bid_strategy_changed,Manual CPC,Target CPA,PPC Team,Switched to automated bidding around the same time CPC began rising.
+2026-07-29,Google Ads,SD-WAN,Budget,budget_decreased,"$218,000/mo","$155,000/mo",Finance,Budget reduced as part of Q3 reallocation.
+2026-08-15,Google Ads,Remarketing,Search Terms,negative_keyword_added,,"-jobs, -free, -tutorial",PPC Team,Added negative keywords to cut irrelevant remarketing triggers.

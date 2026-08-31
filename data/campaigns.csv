@@ -1,8 +1,631 @@
-date,campaign_name,channel,impressions,clicks,spend,conversions,conversion_value
-2026-08-29,Brand Search,Paid Search,18500,1480,3256.00,192,38400.00
-2026-08-29,Business Fiber,Paid Search,42500,2125,8075.00,138,41400.00
-2026-08-29,SD-WAN,Paid Search,28750,1150,6325.00,74,33300.00
-2026-08-29,UCaaS,Paid Search,31800,1272,5724.00,89,35600.00
-2026-08-29,Managed Security,Paid Search,24300,851,5106.00,51,28050.00
-2026-08-29,Enterprise Voice,Paid Search,19600,784,4312.00,46,23000.00
-2026-08-29,Remarketing,Display,67200,940,2820.00,63,18900.00
+date,platform,channel,campaign,campaign_type,impressions,clicks,spend,conversions,conversion_value,monthly_budget
+2026-06-01,Google Ads,Paid Search,Brand Search,Brand,19858,1513,3254.16,185,37956.48,112000
+2026-06-01,Google Ads,Paid Search,Business Fiber,Non-Brand,45887,2384,8686.13,152,43548.9,279000
+2026-06-01,Google Ads,Paid Search,SD-WAN,Non-Brand,28829,1154,6045.23,70,31843.43,218000
+2026-06-01,Google Ads,Paid Search,UCaaS,Non-Brand,33630,1308,5936.71,97,36959.88,197000
+2026-06-01,Google Ads,Paid Search,Managed Security,Non-Brand,26763,955,5640.13,53,30643.01,176000
+2026-06-01,Google Ads,Paid Search,Enterprise Voice,Non-Brand,20042,769,4059.08,48,24390.05,149000
+2026-06-01,Google Ads,Display,Remarketing,Remarketing,74027,1060,3192.1,78,23042.93,97000
+2026-06-02,Google Ads,Paid Search,Brand Search,Brand,20146,1665,3705.97,232,46667.16,112000
+2026-06-02,Google Ads,Paid Search,Business Fiber,Non-Brand,47402,2262,8363.46,141,40421.8,279000
+2026-06-02,Google Ads,Paid Search,SD-WAN,Non-Brand,29723,1141,6138.66,75,33465.97,218000
+2026-06-02,Google Ads,Paid Search,UCaaS,Non-Brand,33631,1306,5740.7,99,40354.69,197000
+2026-06-02,Google Ads,Paid Search,Managed Security,Non-Brand,26702,904,5547.32,50,27437.77,176000
+2026-06-02,Google Ads,Paid Search,Enterprise Voice,Non-Brand,22826,926,5121.01,56,29142.16,149000
+2026-06-02,Google Ads,Display,Remarketing,Remarketing,75781,1032,2951.67,67,19517.12,97000
+2026-06-03,Google Ads,Paid Search,Brand Search,Brand,18527,1548,3533.28,193,39262.35,112000
+2026-06-03,Google Ads,Paid Search,Business Fiber,Non-Brand,43880,2285,8647.05,141,41321.63,279000
+2026-06-03,Google Ads,Paid Search,SD-WAN,Non-Brand,30484,1190,6602.72,83,36811.49,218000
+2026-06-03,Google Ads,Paid Search,UCaaS,Non-Brand,31890,1339,6031.63,86,32867.58,197000
+2026-06-03,Google Ads,Paid Search,Managed Security,Non-Brand,23921,848,5236.12,50,26299.56,176000
+2026-06-03,Google Ads,Paid Search,Enterprise Voice,Non-Brand,20190,848,4675.79,54,28205.44,149000
+2026-06-03,Google Ads,Display,Remarketing,Remarketing,65045,931,2842.92,63,18406.5,97000
+2026-06-04,Google Ads,Paid Search,Brand Search,Brand,19296,1484,3242.81,191,39861.0,112000
+2026-06-04,Google Ads,Paid Search,Business Fiber,Non-Brand,45957,2243,8525.71,136,42559.69,279000
+2026-06-04,Google Ads,Paid Search,SD-WAN,Non-Brand,31063,1217,6789.27,80,34746.34,218000
+2026-06-04,Google Ads,Paid Search,UCaaS,Non-Brand,33798,1357,6277.84,96,36324.44,197000
+2026-06-04,Google Ads,Paid Search,Managed Security,Non-Brand,24089,803,5022.17,52,29387.49,176000
+2026-06-04,Google Ads,Paid Search,Enterprise Voice,Non-Brand,19376,741,4228.35,47,22704.27,149000
+2026-06-04,Google Ads,Display,Remarketing,Remarketing,68390,916,2820.29,65,18674.38,97000
+2026-06-05,Google Ads,Paid Search,Brand Search,Brand,17505,1407,3023.57,196,38926.19,112000
+2026-06-05,Google Ads,Paid Search,Business Fiber,Non-Brand,38513,1933,7515.18,118,34723.88,279000
+2026-06-05,Google Ads,Paid Search,SD-WAN,Non-Brand,29476,1197,6541.24,77,33431.95,218000
+2026-06-05,Google Ads,Paid Search,UCaaS,Non-Brand,28879,1136,5159.27,75,29261.25,197000
+2026-06-05,Google Ads,Paid Search,Managed Security,Non-Brand,21500,762,4450.29,49,28129.7,176000
+2026-06-05,Google Ads,Paid Search,Enterprise Voice,Non-Brand,17341,675,3777.95,37,18005.14,149000
+2026-06-05,Google Ads,Display,Remarketing,Remarketing,68289,963,2880.6,68,21083.52,97000
+2026-06-06,Google Ads,Paid Search,Brand Search,Brand,9671,742,1622.22,95,18903.38,112000
+2026-06-06,Google Ads,Paid Search,Business Fiber,Non-Brand,24232,1233,4910.62,74,21856.16,279000
+2026-06-06,Google Ads,Paid Search,SD-WAN,Non-Brand,15406,639,3423.62,39,17241.94,218000
+2026-06-06,Google Ads,Paid Search,UCaaS,Non-Brand,17271,676,2963.94,51,20400.16,197000
+2026-06-06,Google Ads,Paid Search,Managed Security,Non-Brand,14138,497,2849.76,33,18625.43,176000
+2026-06-06,Google Ads,Paid Search,Enterprise Voice,Non-Brand,11589,483,2750.96,26,13219.77,149000
+2026-06-06,Google Ads,Display,Remarketing,Remarketing,35267,489,1401.84,32,10053.46,97000
+2026-06-07,Google Ads,Paid Search,Brand Search,Brand,9793,806,1764.51,103,21518.43,112000
+2026-06-07,Google Ads,Paid Search,Business Fiber,Non-Brand,25228,1268,4925.3,77,22523.86,279000
+2026-06-07,Google Ads,Paid Search,SD-WAN,Non-Brand,16998,685,3785.15,46,19891.43,218000
+2026-06-07,Google Ads,Paid Search,UCaaS,Non-Brand,17726,709,3304.08,46,19350.07,197000
+2026-06-07,Google Ads,Paid Search,Managed Security,Non-Brand,12467,423,2559.94,26,14030.18,176000
+2026-06-07,Google Ads,Paid Search,Enterprise Voice,Non-Brand,10124,421,2255.56,25,12733.6,149000
+2026-06-07,Google Ads,Display,Remarketing,Remarketing,36482,515,1548.6,38,10919.28,97000
+2026-06-08,Google Ads,Paid Search,Brand Search,Brand,20097,1566,3408.73,210,41169.76,112000
+2026-06-08,Google Ads,Paid Search,Business Fiber,Non-Brand,43313,2220,8076.01,143,45002.75,279000
+2026-06-08,Google Ads,Paid Search,SD-WAN,Non-Brand,32584,1248,6665.65,76,35898.33,218000
+2026-06-08,Google Ads,Paid Search,UCaaS,Non-Brand,35425,1471,6531.94,96,39641.95,197000
+2026-06-08,Google Ads,Paid Search,Managed Security,Non-Brand,26346,932,5867.01,58,30105.64,176000
+2026-06-08,Google Ads,Paid Search,Enterprise Voice,Non-Brand,21624,848,4738.04,54,26071.69,149000
+2026-06-08,Google Ads,Display,Remarketing,Remarketing,66218,891,2686.1,57,17265.65,97000
+2026-06-09,Google Ads,Paid Search,Brand Search,Brand,20676,1605,3578.46,198,39623.62,112000
+2026-06-09,Google Ads,Paid Search,Business Fiber,Non-Brand,48877,2528,9216.28,162,47393.36,279000
+2026-06-09,Google Ads,Paid Search,SD-WAN,Non-Brand,28584,1174,6547.45,72,33142.55,218000
+2026-06-09,Google Ads,Paid Search,UCaaS,Non-Brand,34628,1375,5884.55,88,36581.78,197000
+2026-06-09,Google Ads,Paid Search,Managed Security,Non-Brand,27940,982,6091.39,60,31740.29,176000
+2026-06-09,Google Ads,Paid Search,Enterprise Voice,Non-Brand,19906,781,4466.77,49,25155.08,149000
+2026-06-09,Google Ads,Display,Remarketing,Remarketing,77208,1050,3069.87,65,19964.6,97000
+2026-06-10,Google Ads,Paid Search,Brand Search,Brand,20619,1634,3638.33,197,41155.46,112000
+2026-06-10,Google Ads,Paid Search,Business Fiber,Non-Brand,47228,2474,9692.84,173,49376.92,279000
+2026-06-10,Google Ads,Paid Search,SD-WAN,Non-Brand,31330,1232,7068.92,84,39184.52,218000
+2026-06-10,Google Ads,Paid Search,UCaaS,Non-Brand,35050,1369,6338.98,88,36650.63,197000
+2026-06-10,Google Ads,Paid Search,Managed Security,Non-Brand,26979,918,5682.7,55,29420.59,176000
+2026-06-10,Google Ads,Paid Search,Enterprise Voice,Non-Brand,21553,839,4392.69,46,22706.01,149000
+2026-06-10,Google Ads,Display,Remarketing,Remarketing,74673,1094,3210.21,75,22389.64,97000
+2026-06-11,Google Ads,Paid Search,Brand Search,Brand,20323,1632,3747.42,195,40908.0,112000
+2026-06-11,Google Ads,Paid Search,Business Fiber,Non-Brand,41121,2151,7982.56,129,38349.61,279000
+2026-06-11,Google Ads,Paid Search,SD-WAN,Non-Brand,30397,1193,6632.51,77,34207.95,218000
+2026-06-11,Google Ads,Paid Search,UCaaS,Non-Brand,32833,1281,5885.43,81,33670.96,197000
+2026-06-11,Google Ads,Paid Search,Managed Security,Non-Brand,24938,892,5481.49,55,29977.16,176000
+2026-06-11,Google Ads,Paid Search,Enterprise Voice,Non-Brand,18616,757,4092.2,43,22132.26,149000
+2026-06-11,Google Ads,Display,Remarketing,Remarketing,70954,974,2864.87,64,19021.79,97000
+2026-06-12,Google Ads,Paid Search,Brand Search,Brand,17000,1309,2857.63,185,37610.91,112000
+2026-06-12,Google Ads,Paid Search,Business Fiber,Non-Brand,42977,2174,8095.56,142,40592.65,279000
+2026-06-12,Google Ads,Paid Search,SD-WAN,Non-Brand,26381,1048,5809.29,69,31148.34,218000
+2026-06-12,Google Ads,Paid Search,UCaaS,Non-Brand,29930,1163,5219.2,88,36216.29,197000
+2026-06-12,Google Ads,Paid Search,Managed Security,Non-Brand,21865,733,4407.8,45,24398.79,176000
+2026-06-12,Google Ads,Paid Search,Enterprise Voice,Non-Brand,19569,802,4489.48,45,21584.03,149000
+2026-06-12,Google Ads,Display,Remarketing,Remarketing,58982,805,2408.04,58,16566.22,97000
+2026-06-13,Google Ads,Paid Search,Brand Search,Brand,10036,813,1734.53,110,21912.5,112000
+2026-06-13,Google Ads,Paid Search,Business Fiber,Non-Brand,22418,1138,4111.9,78,23905.06,279000
+2026-06-13,Google Ads,Paid Search,SD-WAN,Non-Brand,14817,588,3130.51,41,18613.39,218000
+2026-06-13,Google Ads,Paid Search,UCaaS,Non-Brand,16231,633,2947.58,44,18098.38,197000
+2026-06-13,Google Ads,Paid Search,Managed Security,Non-Brand,13723,504,3051.36,33,18797.96,176000
+2026-06-13,Google Ads,Paid Search,Enterprise Voice,Non-Brand,10974,449,2468.47,28,14104.01,149000
+2026-06-13,Google Ads,Display,Remarketing,Remarketing,39309,564,1686.92,36,10512.72,97000
+2026-06-14,Google Ads,Paid Search,Brand Search,Brand,10399,854,1882.9,114,22203.45,112000
+2026-06-14,Google Ads,Paid Search,Business Fiber,Non-Brand,21795,1066,3959.77,67,20094.3,279000
+2026-06-14,Google Ads,Paid Search,SD-WAN,Non-Brand,14898,580,3251.25,39,16710.43,218000
+2026-06-14,Google Ads,Paid Search,UCaaS,Non-Brand,17231,692,3088.64,46,18099.34,197000
+2026-06-14,Google Ads,Paid Search,Managed Security,Non-Brand,14231,502,3072.5,32,18198.45,176000
+2026-06-14,Google Ads,Paid Search,Enterprise Voice,Non-Brand,10574,402,2178.49,25,12836.57,149000
+2026-06-14,Google Ads,Display,Remarketing,Remarketing,39641,550,1692.33,37,11282.15,97000
+2026-06-15,Google Ads,Paid Search,Brand Search,Brand,18556,1443,3153.93,170,33346.78,112000
+2026-06-15,Google Ads,Paid Search,Business Fiber,Non-Brand,45904,2273,8348.98,147,42334.0,279000
+2026-06-15,Google Ads,Paid Search,SD-WAN,Non-Brand,30778,1173,6382.5,76,32748.89,218000
+2026-06-15,Google Ads,Paid Search,UCaaS,Non-Brand,34153,1316,5900.83,84,33136.87,197000
+2026-06-15,Google Ads,Paid Search,Managed Security,Non-Brand,24338,837,5153.66,49,27588.97,176000
+2026-06-15,Google Ads,Paid Search,Enterprise Voice,Non-Brand,21673,845,4455.52,45,22516.97,149000
+2026-06-15,Google Ads,Display,Remarketing,Remarketing,76204,1051,3199.87,74,22648.6,97000
+2026-06-16,Google Ads,Paid Search,Brand Search,Brand,20793,1738,3709.09,204,39346.96,112000
+2026-06-16,Google Ads,Paid Search,Business Fiber,Non-Brand,43155,2194,8391.73,134,41117.49,279000
+2026-06-16,Google Ads,Paid Search,SD-WAN,Non-Brand,32376,1252,6959.94,84,36557.71,218000
+2026-06-16,Google Ads,Paid Search,UCaaS,Non-Brand,36099,1511,6533.23,96,37575.52,197000
+2026-06-16,Google Ads,Paid Search,Managed Security,Non-Brand,26989,988,5866.04,62,32506.08,176000
+2026-06-16,Google Ads,Paid Search,Enterprise Voice,Non-Brand,21814,884,4666.57,55,28306.36,149000
+2026-06-16,Google Ads,Display,Remarketing,Remarketing,73742,993,3123.97,70,20770.9,97000
+2026-06-17,Google Ads,Paid Search,Brand Search,Brand,19202,1516,3337.87,190,39415.41,112000
+2026-06-17,Google Ads,Paid Search,Business Fiber,Non-Brand,46926,2254,8958.95,150,46552.31,279000
+2026-06-17,Google Ads,Paid Search,SD-WAN,Non-Brand,31189,1240,6976.66,87,38302.52,218000
+2026-06-17,Google Ads,Paid Search,UCaaS,Non-Brand,35037,1407,6320.2,97,39781.45,197000
+2026-06-17,Google Ads,Paid Search,Managed Security,Non-Brand,24569,890,5517.71,49,27929.2,176000
+2026-06-17,Google Ads,Paid Search,Enterprise Voice,Non-Brand,19737,787,4374.46,45,21468.34,149000
+2026-06-17,Google Ads,Display,Remarketing,Remarketing,74522,1010,2943.11,72,21169.25,97000
+2026-06-18,Google Ads,Paid Search,Brand Search,Brand,20018,1634,3513.68,191,39938.68,112000
+2026-06-18,Google Ads,Paid Search,Business Fiber,Non-Brand,40476,2068,7850.67,141,43156.87,279000
+2026-06-18,Google Ads,Paid Search,SD-WAN,Non-Brand,30010,1199,6789.27,71,30989.43,218000
+2026-06-18,Google Ads,Paid Search,UCaaS,Non-Brand,33431,1311,5949.15,91,36634.03,197000
+2026-06-18,Google Ads,Paid Search,Managed Security,Non-Brand,24491,878,5180.34,55,29418.13,176000
+2026-06-18,Google Ads,Paid Search,Enterprise Voice,Non-Brand,19197,739,3938.18,40,20104.2,149000
+2026-06-18,Google Ads,Display,Remarketing,Remarketing,71419,968,2822.78,65,19838.92,97000
+2026-06-19,Google Ads,Paid Search,Brand Search,Brand,18915,1517,3264.86,181,35098.27,112000
+2026-06-19,Google Ads,Paid Search,Business Fiber,Non-Brand,38615,1869,6756.55,122,35807.84,279000
+2026-06-19,Google Ads,Paid Search,SD-WAN,Non-Brand,29385,1182,6627.54,70,32801.9,218000
+2026-06-19,Google Ads,Paid Search,UCaaS,Non-Brand,30166,1252,5673.96,87,34623.24,197000
+2026-06-19,Google Ads,Paid Search,Managed Security,Non-Brand,21919,733,4590.44,44,24807.19,176000
+2026-06-19,Google Ads,Paid Search,Enterprise Voice,Non-Brand,18324,702,3909.58,38,18099.51,149000
+2026-06-19,Google Ads,Display,Remarketing,Remarketing,64482,885,2786.25,55,16866.29,97000
+2026-06-20,Google Ads,Paid Search,Brand Search,Brand,10348,852,1822.8,111,22088.61,112000
+2026-06-20,Google Ads,Paid Search,Business Fiber,Non-Brand,23161,1200,4782.45,75,22721.56,279000
+2026-06-20,Google Ads,Paid Search,SD-WAN,Non-Brand,16090,659,3787.0,40,17436.19,218000
+2026-06-20,Google Ads,Paid Search,UCaaS,Non-Brand,17939,693,3016.56,44,16870.69,197000
+2026-06-20,Google Ads,Paid Search,Managed Security,Non-Brand,13259,468,2751.88,27,14905.67,176000
+2026-06-20,Google Ads,Paid Search,Enterprise Voice,Non-Brand,11130,443,2483.04,28,14515.53,149000
+2026-06-20,Google Ads,Display,Remarketing,Remarketing,37700,536,1678.68,35,10665.57,97000
+2026-06-21,Google Ads,Paid Search,Brand Search,Brand,10415,867,1970.29,103,19881.16,112000
+2026-06-21,Google Ads,Paid Search,Business Fiber,Non-Brand,22655,1161,4442.24,72,20835.3,279000
+2026-06-21,Google Ads,Paid Search,SD-WAN,Non-Brand,16290,665,3817.16,43,19220.34,218000
+2026-06-21,Google Ads,Paid Search,UCaaS,Non-Brand,16316,623,2782.68,42,16393.76,197000
+2026-06-21,Google Ads,Paid Search,Managed Security,Non-Brand,12491,457,2836.49,28,15984.57,176000
+2026-06-21,Google Ads,Paid Search,Enterprise Voice,Non-Brand,11642,474,2545.24,25,12947.89,149000
+2026-06-21,Google Ads,Display,Remarketing,Remarketing,36786,523,1633.66,33,9922.84,97000
+2026-06-22,Google Ads,Paid Search,Brand Search,Brand,19844,1586,3347.0,199,39229.84,112000
+2026-06-22,Google Ads,Paid Search,Business Fiber,Non-Brand,45840,2374,8867.59,160,46994.95,279000
+2026-06-22,Google Ads,Paid Search,SD-WAN,Non-Brand,32338,1334,7374.15,85,37543.08,218000
+2026-06-22,Google Ads,Paid Search,UCaaS,Non-Brand,32446,1359,6056.26,95,40021.67,197000
+2026-06-22,Google Ads,Paid Search,Managed Security,Non-Brand,26159,919,5468.85,52,28006.1,176000
+2026-06-22,Google Ads,Paid Search,Enterprise Voice,Non-Brand,21424,868,4896.56,48,24075.68,149000
+2026-06-22,Google Ads,Display,Remarketing,Remarketing,75388,1049,3209.1,65,20408.69,97000
+2026-06-23,Google Ads,Paid Search,Brand Search,Brand,20328,1584,3365.43,208,41719.58,112000
+2026-06-23,Google Ads,Paid Search,Business Fiber,Non-Brand,42913,2251,8907.99,145,41830.02,279000
+2026-06-23,Google Ads,Paid Search,SD-WAN,Non-Brand,32700,1308,7348.65,84,37049.18,218000
+2026-06-23,Google Ads,Paid Search,UCaaS,Non-Brand,36183,1517,6650.86,107,42407.49,197000
+2026-06-23,Google Ads,Paid Search,Managed Security,Non-Brand,28015,981,6111.44,63,33908.29,176000
+2026-06-23,Google Ads,Paid Search,Enterprise Voice,Non-Brand,22150,878,5041.41,52,26650.82,149000
+2026-06-23,Google Ads,Display,Remarketing,Remarketing,70054,961,2908.07,71,21221.53,97000
+2026-06-24,Google Ads,Paid Search,Brand Search,Brand,18333,1472,3188.86,193,38755.22,112000
+2026-06-24,Google Ads,Paid Search,Business Fiber,Non-Brand,44306,2176,8010.71,147,44352.85,279000
+2026-06-24,Google Ads,Paid Search,SD-WAN,Non-Brand,28901,1188,6235.18,80,36793.33,218000
+2026-06-24,Google Ads,Paid Search,UCaaS,Non-Brand,35054,1386,6339.89,103,43288.59,197000
+2026-06-24,Google Ads,Paid Search,Managed Security,Non-Brand,25496,851,5107.43,52,29598.55,176000
+2026-06-24,Google Ads,Paid Search,Enterprise Voice,Non-Brand,21812,867,4782.4,50,25796.65,149000
+2026-06-24,Google Ads,Display,Remarketing,Remarketing,69544,989,2863.53,66,20677.97,97000
+2026-06-25,Google Ads,Paid Search,Brand Search,Brand,18383,1499,3347.09,208,43084.55,112000
+2026-06-25,Google Ads,Paid Search,Business Fiber,Non-Brand,45842,2265,8447.77,153,47214.61,279000
+2026-06-25,Google Ads,Paid Search,SD-WAN,Non-Brand,31072,1185,6237.3,78,36674.95,218000
+2026-06-25,Google Ads,Paid Search,UCaaS,Non-Brand,35018,1435,6416.05,92,37454.26,197000
+2026-06-25,Google Ads,Paid Search,Managed Security,Non-Brand,26264,914,5590.68,59,31065.5,176000
+2026-06-25,Google Ads,Paid Search,Enterprise Voice,Non-Brand,20939,820,4454.99,45,22437.91,149000
+2026-06-25,Google Ads,Display,Remarketing,Remarketing,69267,998,2895.5,61,19053.9,97000
+2026-06-26,Google Ads,Paid Search,Brand Search,Brand,17912,1396,3197.51,168,33491.92,112000
+2026-06-26,Google Ads,Paid Search,Business Fiber,Non-Brand,38786,1892,6836.28,130,40646.07,279000
+2026-06-26,Google Ads,Paid Search,SD-WAN,Non-Brand,28089,1085,5933.37,68,30694.58,218000
+2026-06-26,Google Ads,Paid Search,UCaaS,Non-Brand,30882,1226,5378.75,92,35592.36,197000
+2026-06-26,Google Ads,Paid Search,Managed Security,Non-Brand,22659,792,4625.58,48,26656.92,176000
+2026-06-26,Google Ads,Paid Search,Enterprise Voice,Non-Brand,20088,787,4535.72,48,23293.79,149000
+2026-06-26,Google Ads,Display,Remarketing,Remarketing,64513,920,2827.43,56,17002.64,97000
+2026-06-27,Google Ads,Paid Search,Brand Search,Brand,10170,846,1822.39,116,23518.59,112000
+2026-06-27,Google Ads,Paid Search,Business Fiber,Non-Brand,22823,1157,4448.69,78,23837.37,279000
+2026-06-27,Google Ads,Paid Search,SD-WAN,Non-Brand,16215,671,3735.35,47,21274.73,218000
+2026-06-27,Google Ads,Paid Search,UCaaS,Non-Brand,16955,674,3058.04,49,18945.17,197000
+2026-06-27,Google Ads,Paid Search,Managed Security,Non-Brand,12927,464,2691.59,26,14206.58,176000
+2026-06-27,Google Ads,Paid Search,Enterprise Voice,Non-Brand,11593,465,2664.16,29,14201.06,149000
+2026-06-27,Google Ads,Display,Remarketing,Remarketing,38880,543,1679.96,38,11274.71,97000
+2026-06-28,Google Ads,Paid Search,Brand Search,Brand,9548,799,1695.16,113,23482.9,112000
+2026-06-28,Google Ads,Paid Search,Business Fiber,Non-Brand,24214,1269,5046.67,87,25856.31,279000
+2026-06-28,Google Ads,Paid Search,SD-WAN,Non-Brand,16548,630,3476.25,40,18368.9,218000
+2026-06-28,Google Ads,Paid Search,UCaaS,Non-Brand,17972,725,3367.55,55,21221.64,197000
+2026-06-28,Google Ads,Paid Search,Managed Security,Non-Brand,12796,427,2657.83,26,14817.08,176000
+2026-06-28,Google Ads,Paid Search,Enterprise Voice,Non-Brand,10299,394,2237.08,25,12262.69,149000
+2026-06-28,Google Ads,Display,Remarketing,Remarketing,36418,491,1540.24,32,9485.26,97000
+2026-06-29,Google Ads,Paid Search,Brand Search,Brand,18173,1510,3201.28,194,39471.7,112000
+2026-06-29,Google Ads,Paid Search,Business Fiber,Non-Brand,46361,2421,9127.02,165,47721.93,279000
+2026-06-29,Google Ads,Paid Search,SD-WAN,Non-Brand,29776,1143,6281.43,72,33939.61,218000
+2026-06-29,Google Ads,Paid Search,UCaaS,Non-Brand,30894,1220,5457.77,93,38553.74,197000
+2026-06-29,Google Ads,Paid Search,Managed Security,Non-Brand,23879,851,5130.5,56,30292.08,176000
+2026-06-29,Google Ads,Paid Search,Enterprise Voice,Non-Brand,20245,785,4152.59,49,24521.41,149000
+2026-06-29,Google Ads,Display,Remarketing,Remarketing,72398,1028,3113.74,62,19219.32,97000
+2026-06-30,Google Ads,Paid Search,Brand Search,Brand,19160,1475,3267.02,175,35899.06,112000
+2026-06-30,Google Ads,Paid Search,Business Fiber,Non-Brand,43749,2125,8374.84,133,38552.97,279000
+2026-06-30,Google Ads,Paid Search,SD-WAN,Non-Brand,33040,1256,7154.95,75,32507.76,218000
+2026-06-30,Google Ads,Paid Search,UCaaS,Non-Brand,32974,1276,5834.58,81,30771.01,197000
+2026-06-30,Google Ads,Paid Search,Managed Security,Non-Brand,27462,936,5516.85,52,27536.27,176000
+2026-06-30,Google Ads,Paid Search,Enterprise Voice,Non-Brand,21987,882,4968.83,52,26472.82,149000
+2026-06-30,Google Ads,Display,Remarketing,Remarketing,72730,978,2936.35,71,20439.92,97000
+2026-07-01,Google Ads,Paid Search,Brand Search,Brand,20305,1684,3712.82,217,45327.32,112000
+2026-07-01,Google Ads,Paid Search,Business Fiber,Non-Brand,41489,2070,7789.01,139,41764.38,279000
+2026-07-01,Google Ads,Paid Search,SD-WAN,Non-Brand,32166,1232,6490.77,81,34831.95,218000
+2026-07-01,Google Ads,Paid Search,UCaaS,Non-Brand,32188,1305,5899.34,88,36996.87,197000
+2026-07-01,Google Ads,Paid Search,Managed Security,Non-Brand,25640,893,5415.93,49,27614.85,176000
+2026-07-01,Google Ads,Paid Search,Enterprise Voice,Non-Brand,21742,883,4985.95,54,26283.34,149000
+2026-07-01,Google Ads,Display,Remarketing,Remarketing,70013,954,2814.63,63,18828.99,97000
+2026-07-02,Google Ads,Paid Search,Brand Search,Brand,17647,1401,3134.12,177,34208.88,112000
+2026-07-02,Google Ads,Paid Search,Business Fiber,Non-Brand,46284,2214,8692.4,132,38002.4,279000
+2026-07-02,Google Ads,Paid Search,SD-WAN,Non-Brand,30445,1256,6945.75,82,37192.15,218000
+2026-07-02,Google Ads,Paid Search,UCaaS,Non-Brand,31552,1214,5384.79,88,36006.78,197000
+2026-07-02,Google Ads,Paid Search,Managed Security,Non-Brand,26246,939,5897.32,57,31085.41,176000
+2026-07-02,Google Ads,Paid Search,Enterprise Voice,Non-Brand,20241,786,4392.94,44,20953.29,149000
+2026-07-02,Google Ads,Display,Remarketing,Remarketing,72332,999,3076.42,68,21008.42,97000
+2026-07-03,Google Ads,Paid Search,Brand Search,Brand,18546,1554,3527.78,206,41816.1,112000
+2026-07-03,Google Ads,Paid Search,Business Fiber,Non-Brand,37315,1946,7637.59,120,34968.01,279000
+2026-07-03,Google Ads,Paid Search,SD-WAN,Non-Brand,28198,1106,5987.66,64,29918.15,218000
+2026-07-03,Google Ads,Paid Search,UCaaS,Non-Brand,30531,1209,5246.12,87,33125.4,197000
+2026-07-03,Google Ads,Paid Search,Managed Security,Non-Brand,23994,816,4855.97,47,25685.31,176000
+2026-07-03,Google Ads,Paid Search,Enterprise Voice,Non-Brand,19280,793,4388.53,43,20376.32,149000
+2026-07-03,Google Ads,Display,Remarketing,Remarketing,60341,855,2608.78,55,16662.42,97000
+2026-07-04,Google Ads,Paid Search,Brand Search,Brand,10152,807,1736.04,110,21162.48,112000
+2026-07-04,Google Ads,Paid Search,Business Fiber,Non-Brand,23113,1131,4372.94,73,22320.75,279000
+2026-07-04,Google Ads,Paid Search,SD-WAN,Non-Brand,14662,580,3223.65,34,14838.46,218000
+2026-07-04,Google Ads,Paid Search,UCaaS,Non-Brand,16682,643,2823.07,43,16531.09,197000
+2026-07-04,Google Ads,Paid Search,Managed Security,Non-Brand,13893,470,2789.14,29,16132.2,176000
+2026-07-04,Google Ads,Paid Search,Enterprise Voice,Non-Brand,11355,468,2464.41,29,14058.65,149000
+2026-07-04,Google Ads,Display,Remarketing,Remarketing,34114,498,1547.2,34,10230.11,97000
+2026-07-05,Google Ads,Paid Search,Brand Search,Brand,10516,834,1764.96,98,19226.35,112000
+2026-07-05,Google Ads,Paid Search,Business Fiber,Non-Brand,24502,1240,4866.76,87,25083.11,279000
+2026-07-05,Google Ads,Paid Search,SD-WAN,Non-Brand,16684,650,3608.06,42,18707.57,218000
+2026-07-05,Google Ads,Paid Search,UCaaS,Non-Brand,16959,667,2953.5,44,17467.15,197000
+2026-07-05,Google Ads,Paid Search,Managed Security,Non-Brand,12540,439,2742.94,26,14356.7,176000
+2026-07-05,Google Ads,Paid Search,Enterprise Voice,Non-Brand,11330,467,2503.34,26,12364.42,149000
+2026-07-05,Google Ads,Display,Remarketing,Remarketing,37566,540,1643.98,34,10422.5,97000
+2026-07-06,Google Ads,Paid Search,Brand Search,Brand,19407,1592,3593.51,204,42609.28,112000
+2026-07-06,Google Ads,Paid Search,Business Fiber,Non-Brand,45085,2285,8790.25,159,48332.36,279000
+2026-07-06,Google Ads,Paid Search,SD-WAN,Non-Brand,28502,1091,5964.98,67,29635.75,218000
+2026-07-06,Google Ads,Paid Search,UCaaS,Non-Brand,31019,1242,5481.56,86,32906.56,197000
+2026-07-06,Google Ads,Paid Search,Managed Security,Non-Brand,26869,901,5600.51,58,32144.58,176000
+2026-07-06,Google Ads,Paid Search,Enterprise Voice,Non-Brand,20603,821,4540.35,51,26514.16,149000
+2026-07-06,Google Ads,Display,Remarketing,Remarketing,69993,1010,3076.78,65,19533.56,97000
+2026-07-07,Google Ads,Paid Search,Brand Search,Brand,18864,1443,3048.71,202,39786.35,112000
+2026-07-07,Google Ads,Paid Search,Business Fiber,Non-Brand,47474,2375,8728.66,146,43630.92,279000
+2026-07-07,Google Ads,Paid Search,SD-WAN,Non-Brand,30749,1233,6548.8,77,34008.11,218000
+2026-07-07,Google Ads,Paid Search,UCaaS,Non-Brand,33843,1332,6051.89,99,40029.37,197000
+2026-07-07,Google Ads,Paid Search,Managed Security,Non-Brand,24421,820,5008.28,47,26429.69,176000
+2026-07-07,Google Ads,Paid Search,Enterprise Voice,Non-Brand,21698,903,5153.02,51,25837.42,149000
+2026-07-07,Google Ads,Display,Remarketing,Remarketing,68412,943,2962.53,66,19501.8,97000
+2026-07-08,Google Ads,Paid Search,Brand Search,Brand,19720,1647,3553.82,208,42877.8,112000
+2026-07-08,Google Ads,Paid Search,Business Fiber,Non-Brand,46861,2383,9352.96,162,49512.3,279000
+2026-07-08,Google Ads,Paid Search,SD-WAN,Non-Brand,30315,1230,6714.86,77,34139.53,218000
+2026-07-08,Google Ads,Paid Search,UCaaS,Non-Brand,31682,1231,5787.74,86,33434.86,197000
+2026-07-08,Google Ads,Paid Search,Managed Security,Non-Brand,24035,806,5000.51,44,25087.0,176000
+2026-07-08,Google Ads,Paid Search,Enterprise Voice,Non-Brand,21683,901,4724.42,51,26251.11,149000
+2026-07-08,Google Ads,Display,Remarketing,Remarketing,66395,918,2661.18,66,20209.42,97000
+2026-07-09,Google Ads,Paid Search,Brand Search,Brand,19803,1531,3347.77,195,39700.73,112000
+2026-07-09,Google Ads,Paid Search,Business Fiber,Non-Brand,41530,2065,7677.82,141,41986.25,279000
+2026-07-09,Google Ads,Paid Search,SD-WAN,Non-Brand,29485,1157,6559.39,74,34382.66,218000
+2026-07-09,Google Ads,Paid Search,UCaaS,Non-Brand,31750,1327,6259.8,92,36060.92,197000
+2026-07-09,Google Ads,Paid Search,Managed Security,Non-Brand,24318,853,5359.47,54,30799.67,176000
+2026-07-09,Google Ads,Paid Search,Enterprise Voice,Non-Brand,18835,735,4097.22,46,23299.45,149000
+2026-07-09,Google Ads,Display,Remarketing,Remarketing,64186,930,2886.98,60,18353.82,97000
+2026-07-10,Google Ads,Paid Search,Brand Search,Brand,16936,1410,2992.19,181,37725.05,112000
+2026-07-10,Google Ads,Paid Search,Business Fiber,Non-Brand,38579,1920,7184.54,113,32323.89,279000
+2026-07-10,Google Ads,Paid Search,SD-WAN,Non-Brand,27321,1064,6141.25,67,28599.75,218000
+2026-07-10,Google Ads,Paid Search,UCaaS,Non-Brand,32292,1336,6099.91,99,38139.3,197000
+2026-07-10,Google Ads,Paid Search,Managed Security,Non-Brand,22298,806,4931.79,45,25146.7,176000
+2026-07-10,Google Ads,Paid Search,Enterprise Voice,Non-Brand,18467,702,3699.22,39,20258.11,149000
+2026-07-10,Google Ads,Display,Remarketing,Remarketing,64339,921,2771.3,57,16714.54,97000
+2026-07-11,Google Ads,Paid Search,Brand Search,Brand,9851,752,1642.14,103,20577.49,112000
+2026-07-11,Google Ads,Paid Search,Business Fiber,Non-Brand,21920,1140,4375.38,43,13056.4,279000
+2026-07-11,Google Ads,Paid Search,SD-WAN,Non-Brand,15160,585,3193.48,38,16859.82,218000
+2026-07-11,Google Ads,Paid Search,UCaaS,Non-Brand,17257,702,3026.4,54,20579.99,197000
+2026-07-11,Google Ads,Paid Search,Managed Security,Non-Brand,13421,470,2958.15,28,15482.68,176000
+2026-07-11,Google Ads,Paid Search,Enterprise Voice,Non-Brand,10728,435,2507.37,24,11550.0,149000
+2026-07-11,Google Ads,Display,Remarketing,Remarketing,38666,533,1636.02,37,11284.86,97000
+2026-07-12,Google Ads,Paid Search,Brand Search,Brand,10558,830,1743.81,109,22422.63,112000
+2026-07-12,Google Ads,Paid Search,Business Fiber,Non-Brand,22160,1139,4312.59,50,15174.16,279000
+2026-07-12,Google Ads,Paid Search,SD-WAN,Non-Brand,16601,635,3589.03,40,17842.25,218000
+2026-07-12,Google Ads,Paid Search,UCaaS,Non-Brand,16213,629,2701.03,48,19169.32,197000
+2026-07-12,Google Ads,Paid Search,Managed Security,Non-Brand,14411,507,2964.34,32,16992.19,176000
+2026-07-12,Google Ads,Paid Search,Enterprise Voice,Non-Brand,10533,433,2469.56,25,11824.66,149000
+2026-07-12,Google Ads,Display,Remarketing,Remarketing,36180,526,1617.14,38,11282.94,97000
+2026-07-13,Google Ads,Paid Search,Brand Search,Brand,20897,1671,3675.62,235,47119.08,112000
+2026-07-13,Google Ads,Paid Search,Business Fiber,Non-Brand,46775,2392,8706.38,103,31886.28,279000
+2026-07-13,Google Ads,Paid Search,SD-WAN,Non-Brand,30407,1195,6294.08,79,34986.06,218000
+2026-07-13,Google Ads,Paid Search,UCaaS,Non-Brand,33938,1347,6178.82,92,34934.34,197000
+2026-07-13,Google Ads,Paid Search,Managed Security,Non-Brand,27026,932,5870.26,53,30726.14,176000
+2026-07-13,Google Ads,Paid Search,Enterprise Voice,Non-Brand,22055,845,4709.76,48,24840.4,149000
+2026-07-13,Google Ads,Display,Remarketing,Remarketing,72585,1062,3072.79,73,22423.28,97000
+2026-07-14,Google Ads,Paid Search,Brand Search,Brand,18493,1415,3200.61,179,35315.38,112000
+2026-07-14,Google Ads,Paid Search,Business Fiber,Non-Brand,46394,2344,9066.97,108,31914.54,279000
+2026-07-14,Google Ads,Paid Search,SD-WAN,Non-Brand,32357,1304,7192.29,82,37510.2,218000
+2026-07-14,Google Ads,Paid Search,UCaaS,Non-Brand,32968,1268,5839.32,89,35089.09,197000
+2026-07-14,Google Ads,Paid Search,Managed Security,Non-Brand,26503,906,5302.8,54,30976.18,176000
+2026-07-14,Google Ads,Paid Search,Enterprise Voice,Non-Brand,20442,852,4680.37,46,23926.9,149000
+2026-07-14,Google Ads,Display,Remarketing,Remarketing,72019,1048,3128.13,64,19688.55,97000
+2026-07-15,Google Ads,Paid Search,Brand Search,Brand,20499,1610,3488.66,191,38297.99,112000
+2026-07-15,Google Ads,Paid Search,Business Fiber,Non-Brand,47419,2454,9523.73,112,34178.69,279000
+2026-07-15,Google Ads,Paid Search,SD-WAN,Non-Brand,31606,1265,6695.91,76,33180.18,218000
+2026-07-15,Google Ads,Paid Search,UCaaS,Non-Brand,34941,1331,6023.86,91,37405.37,197000
+2026-07-15,Google Ads,Paid Search,Managed Security,Non-Brand,25726,910,5236.86,52,30293.23,176000
+2026-07-15,Google Ads,Paid Search,Enterprise Voice,Non-Brand,21301,854,4824.65,53,25554.81,149000
+2026-07-15,Google Ads,Display,Remarketing,Remarketing,75893,1078,3216.7,75,22091.59,97000
+2026-07-16,Google Ads,Paid Search,Brand Search,Brand,20011,1646,3671.28,200,41839.42,112000
+2026-07-16,Google Ads,Paid Search,Business Fiber,Non-Brand,42883,2232,8105.22,87,25219.54,279000
+2026-07-16,Google Ads,Paid Search,SD-WAN,Non-Brand,27752,1090,6122.61,68,31926.68,218000
+2026-07-16,Google Ads,Paid Search,UCaaS,Non-Brand,34486,1427,6261.97,103,41247.99,197000
+2026-07-16,Google Ads,Paid Search,Managed Security,Non-Brand,23300,799,4812.48,48,25476.77,176000
+2026-07-16,Google Ads,Paid Search,Enterprise Voice,Non-Brand,21405,827,4618.33,51,25596.83,149000
+2026-07-16,Google Ads,Display,Remarketing,Remarketing,72301,1019,3155.33,62,17700.64,97000
+2026-07-17,Google Ads,Paid Search,Brand Search,Brand,17973,1449,3235.66,198,39259.84,112000
+2026-07-17,Google Ads,Paid Search,Business Fiber,Non-Brand,41273,2063,7940.01,83,26155.15,279000
+2026-07-17,Google Ads,Paid Search,SD-WAN,Non-Brand,27238,1123,6289.16,69,29838.63,218000
+2026-07-17,Google Ads,Paid Search,UCaaS,Non-Brand,28083,1117,5016.46,74,29725.87,197000
+2026-07-17,Google Ads,Paid Search,Managed Security,Non-Brand,22393,801,4917.7,51,29632.87,176000
+2026-07-17,Google Ads,Paid Search,Enterprise Voice,Non-Brand,17520,692,3827.95,39,19502.1,149000
+2026-07-17,Google Ads,Display,Remarketing,Remarketing,61465,839,2414.99,54,15965.66,97000
+2026-07-18,Google Ads,Paid Search,Brand Search,Brand,10363,808,1842.9,98,19199.69,112000
+2026-07-18,Google Ads,Paid Search,Business Fiber,Non-Brand,23666,1161,4528.34,49,14711.04,279000
+2026-07-18,Google Ads,Paid Search,SD-WAN,Non-Brand,15809,620,3248.8,43,19556.23,218000
+2026-07-18,Google Ads,Paid Search,UCaaS,Non-Brand,18796,730,3238.55,47,18603.87,197000
+2026-07-18,Google Ads,Paid Search,Managed Security,Non-Brand,14183,504,3015.39,30,17308.46,176000
+2026-07-18,Google Ads,Paid Search,Enterprise Voice,Non-Brand,10661,443,2490.49,27,13496.87,149000
+2026-07-18,Google Ads,Display,Remarketing,Remarketing,36372,513,1491.39,35,9972.51,97000
+2026-07-19,Google Ads,Paid Search,Brand Search,Brand,10182,836,1798.88,119,24239.24,112000
+2026-07-19,Google Ads,Paid Search,Business Fiber,Non-Brand,21949,1150,4322.16,51,15159.01,279000
+2026-07-19,Google Ads,Paid Search,SD-WAN,Non-Brand,16923,694,3703.09,45,20122.92,218000
+2026-07-19,Google Ads,Paid Search,UCaaS,Non-Brand,16218,625,2766.24,44,17337.6,197000
+2026-07-19,Google Ads,Paid Search,Managed Security,Non-Brand,13592,476,2809.61,29,15510.37,176000
+2026-07-19,Google Ads,Paid Search,Enterprise Voice,Non-Brand,11626,476,2566.4,27,13962.26,149000
+2026-07-19,Google Ads,Display,Remarketing,Remarketing,37151,531,1561.03,38,11197.19,97000
+2026-07-20,Google Ads,Paid Search,Brand Search,Brand,19965,1674,3713.33,230,47033.51,112000
+2026-07-20,Google Ads,Paid Search,Business Fiber,Non-Brand,45968,2190,8299.29,101,31156.02,279000
+2026-07-20,Google Ads,Paid Search,SD-WAN,Non-Brand,31521,1271,7143.26,83,36148.59,218000
+2026-07-20,Google Ads,Paid Search,UCaaS,Non-Brand,34079,1379,6419.51,90,36553.74,197000
+2026-07-20,Google Ads,Paid Search,Managed Security,Non-Brand,23603,863,4976.7,47,25220.83,176000
+2026-07-20,Google Ads,Paid Search,Enterprise Voice,Non-Brand,19432,792,4317.49,49,25557.94,149000
+2026-07-20,Google Ads,Display,Remarketing,Remarketing,74769,1071,3073.66,67,19392.67,97000
+2026-07-21,Google Ads,Paid Search,Brand Search,Brand,19421,1579,3482.35,197,38141.46,112000
+2026-07-21,Google Ads,Paid Search,Business Fiber,Non-Brand,48927,2408,9016.17,107,32838.8,279000
+2026-07-21,Google Ads,Paid Search,SD-WAN,Non-Brand,31762,1295,7201.12,78,34274.26,218000
+2026-07-21,Google Ads,Paid Search,UCaaS,Non-Brand,34663,1348,6354.66,91,35462.07,197000
+2026-07-21,Google Ads,Paid Search,Managed Security,Non-Brand,25015,893,5262.72,52,29783.16,176000
+2026-07-21,Google Ads,Paid Search,Enterprise Voice,Non-Brand,22169,867,4586.35,53,26017.92,149000
+2026-07-21,Google Ads,Display,Remarketing,Remarketing,78152,1129,3540.85,80,23570.06,97000
+2026-07-22,Google Ads,Paid Search,Brand Search,Brand,18765,1533,3321.53,197,38358.95,112000
+2026-07-22,Google Ads,Paid Search,Business Fiber,Non-Brand,44476,2158,8230.23,99,30251.33,279000
+2026-07-22,Google Ads,Paid Search,SD-WAN,Non-Brand,28436,1151,6383.13,70,32113.46,218000
+2026-07-22,Google Ads,Paid Search,UCaaS,Non-Brand,33556,1361,5849.34,94,38254.1,197000
+2026-07-22,Google Ads,Paid Search,Managed Security,Non-Brand,23884,859,4896.6,52,29796.88,176000
+2026-07-22,Google Ads,Paid Search,Enterprise Voice,Non-Brand,20273,846,4830.31,49,23981.37,149000
+2026-07-22,Google Ads,Display,Remarketing,Remarketing,75797,1042,3172.18,76,21726.88,97000
+2026-07-23,Google Ads,Paid Search,Brand Search,Brand,19094,1533,3447.57,216,45022.04,112000
+2026-07-23,Google Ads,Paid Search,Business Fiber,Non-Brand,41096,2133,7843.93,98,30719.57,279000
+2026-07-23,Google Ads,Paid Search,SD-WAN,Non-Brand,28842,1153,6619.15,81,38002.77,218000
+2026-07-23,Google Ads,Paid Search,UCaaS,Non-Brand,34391,1308,5926.64,84,35381.35,197000
+2026-07-23,Google Ads,Paid Search,Managed Security,Non-Brand,23932,879,5294.27,53,30177.24,176000
+2026-07-23,Google Ads,Paid Search,Enterprise Voice,Non-Brand,21115,842,4488.19,46,22026.04,149000
+2026-07-23,Google Ads,Display,Remarketing,Remarketing,68093,930,2702.94,65,20150.51,97000
+2026-07-24,Google Ads,Paid Search,Brand Search,Brand,17766,1458,3103.12,203,42117.68,112000
+2026-07-24,Google Ads,Paid Search,Business Fiber,Non-Brand,42487,2128,7750.81,93,26960.0,279000
+2026-07-24,Google Ads,Paid Search,SD-WAN,Non-Brand,25742,1012,5423.17,62,27130.88,218000
+2026-07-24,Google Ads,Paid Search,UCaaS,Non-Brand,31437,1315,5798.34,96,36569.86,197000
+2026-07-24,Google Ads,Paid Search,Managed Security,Non-Brand,23653,844,4841.12,47,25180.37,176000
+2026-07-24,Google Ads,Paid Search,Enterprise Voice,Non-Brand,18338,734,4194.87,45,21987.57,149000
+2026-07-24,Google Ads,Display,Remarketing,Remarketing,59932,874,2568.16,60,17464.71,97000
+2026-07-25,Google Ads,Paid Search,Brand Search,Brand,9578,740,1667.66,98,19428.72,112000
+2026-07-25,Google Ads,Paid Search,Business Fiber,Non-Brand,23559,1175,4479.92,51,14919.68,279000
+2026-07-25,Google Ads,Paid Search,SD-WAN,Non-Brand,15174,622,3550.96,37,16415.36,218000
+2026-07-25,Google Ads,Paid Search,UCaaS,Non-Brand,18060,692,3133.67,44,17760.17,197000
+2026-07-25,Google Ads,Paid Search,Managed Security,Non-Brand,13377,472,2730.46,27,15032.94,176000
+2026-07-25,Google Ads,Paid Search,Enterprise Voice,Non-Brand,10118,393,2178.37,21,10596.5,149000
+2026-07-25,Google Ads,Display,Remarketing,Remarketing,38785,540,1623.55,36,10293.25,97000
+2026-07-26,Google Ads,Paid Search,Brand Search,Brand,10114,834,1875.62,106,21852.35,112000
+2026-07-26,Google Ads,Paid Search,Business Fiber,Non-Brand,24294,1224,4440.53,77,22087.09,279000
+2026-07-26,Google Ads,Paid Search,SD-WAN,Non-Brand,17063,712,3748.1,50,21345.59,218000
+2026-07-26,Google Ads,Paid Search,UCaaS,Non-Brand,17235,708,3270.42,54,22035.55,197000
+2026-07-26,Google Ads,Paid Search,Managed Security,Non-Brand,13195,485,2873.28,31,17841.87,176000
+2026-07-26,Google Ads,Paid Search,Enterprise Voice,Non-Brand,10566,430,2567.53,25,12925.29,149000
+2026-07-26,Google Ads,Display,Remarketing,Remarketing,36060,489,1471.28,33,10102.68,97000
+2026-07-27,Google Ads,Paid Search,Brand Search,Brand,18563,1411,2956.7,176,35742.65,112000
+2026-07-27,Google Ads,Paid Search,Business Fiber,Non-Brand,44942,2254,8843.31,139,41033.56,279000
+2026-07-27,Google Ads,Paid Search,SD-WAN,Non-Brand,29104,1215,6833.3,72,33439.73,218000
+2026-07-27,Google Ads,Paid Search,UCaaS,Non-Brand,32959,1353,6324.1,86,33218.76,197000
+2026-07-27,Google Ads,Paid Search,Managed Security,Non-Brand,23886,797,4828.8,50,26091.69,176000
+2026-07-27,Google Ads,Paid Search,Enterprise Voice,Non-Brand,21372,847,4945.48,47,24293.25,149000
+2026-07-27,Google Ads,Display,Remarketing,Remarketing,65552,918,2696.23,65,20073.34,97000
+2026-07-28,Google Ads,Paid Search,Brand Search,Brand,19401,1567,3507.51,196,38420.12,112000
+2026-07-28,Google Ads,Paid Search,Business Fiber,Non-Brand,43280,2199,8121.9,137,39295.7,279000
+2026-07-28,Google Ads,Paid Search,SD-WAN,Non-Brand,33278,1382,7911.98,91,40687.79,218000
+2026-07-28,Google Ads,Paid Search,UCaaS,Non-Brand,34320,1438,6755.03,104,42823.06,197000
+2026-07-28,Google Ads,Paid Search,Managed Security,Non-Brand,25483,884,5120.48,52,29140.84,176000
+2026-07-28,Google Ads,Paid Search,Enterprise Voice,Non-Brand,21078,873,5243.89,53,27489.26,149000
+2026-07-28,Google Ads,Display,Remarketing,Remarketing,77392,1090,3423.74,74,21354.03,97000
+2026-07-29,Google Ads,Paid Search,Brand Search,Brand,18626,1446,3227.56,203,42084.65,112000
+2026-07-29,Google Ads,Paid Search,Business Fiber,Non-Brand,41715,2133,7853.06,132,40286.72,279000
+2026-07-29,Google Ads,Paid Search,SD-WAN,Non-Brand,30685,1273,6784.46,86,39639.13,155000
+2026-07-29,Google Ads,Paid Search,UCaaS,Non-Brand,33704,1345,6277.98,91,38076.79,197000
+2026-07-29,Google Ads,Paid Search,Managed Security,Non-Brand,23536,860,5397.09,48,27464.46,176000
+2026-07-29,Google Ads,Paid Search,Enterprise Voice,Non-Brand,20511,799,5057.54,44,22989.53,149000
+2026-07-29,Google Ads,Display,Remarketing,Remarketing,71148,1024,3033.9,69,20419.61,97000
+2026-07-30,Google Ads,Paid Search,Brand Search,Brand,18150,1454,3197.64,173,36355.3,112000
+2026-07-30,Google Ads,Paid Search,Business Fiber,Non-Brand,43138,2230,8825.88,141,41935.01,279000
+2026-07-30,Google Ads,Paid Search,SD-WAN,Non-Brand,29618,1152,6110.13,71,33109.89,155000
+2026-07-30,Google Ads,Paid Search,UCaaS,Non-Brand,32847,1303,5659.87,88,34820.16,197000
+2026-07-30,Google Ads,Paid Search,Managed Security,Non-Brand,26108,914,5567.07,57,30457.78,176000
+2026-07-30,Google Ads,Paid Search,Enterprise Voice,Non-Brand,21021,880,5705.27,52,24925.64,149000
+2026-07-30,Google Ads,Display,Remarketing,Remarketing,71779,972,2979.23,65,20297.26,97000
+2026-07-31,Google Ads,Paid Search,Brand Search,Brand,17693,1436,3018.85,169,34936.97,112000
+2026-07-31,Google Ads,Paid Search,Business Fiber,Non-Brand,43251,2199,8576.79,140,43503.72,279000
+2026-07-31,Google Ads,Paid Search,SD-WAN,Non-Brand,18820,768,4018.73,49,21976.76,155000
+2026-07-31,Google Ads,Paid Search,UCaaS,Non-Brand,30780,1252,5954.77,87,34887.82,197000
+2026-07-31,Google Ads,Paid Search,Managed Security,Non-Brand,21263,748,4269.12,45,24230.61,176000
+2026-07-31,Google Ads,Paid Search,Enterprise Voice,Non-Brand,20043,763,5132.5,46,23882.68,149000
+2026-07-31,Google Ads,Display,Remarketing,Remarketing,68026,915,2633.99,57,16572.01,97000
+2026-08-01,Google Ads,Paid Search,Brand Search,Brand,10218,843,1811.91,107,21149.95,112000
+2026-08-01,Google Ads,Paid Search,Business Fiber,Non-Brand,23024,1159,4618.75,71,21714.65,279000
+2026-08-01,Google Ads,Paid Search,SD-WAN,Non-Brand,12019,488,2780.93,33,14253.6,155000
+2026-08-01,Google Ads,Paid Search,UCaaS,Non-Brand,17152,690,3130.03,44,16844.62,197000
+2026-08-01,Google Ads,Paid Search,Managed Security,Non-Brand,13365,465,2867.32,28,16065.49,176000
+2026-08-01,Google Ads,Paid Search,Enterprise Voice,Non-Brand,10082,404,2567.45,22,11596.34,149000
+2026-08-01,Google Ads,Display,Remarketing,Remarketing,39252,548,1569.97,34,10509.41,97000
+2026-08-02,Google Ads,Paid Search,Brand Search,Brand,10825,872,1827.76,123,24090.13,112000
+2026-08-02,Google Ads,Paid Search,Business Fiber,Non-Brand,25101,1266,4932.03,86,25435.65,279000
+2026-08-02,Google Ads,Paid Search,SD-WAN,Non-Brand,10614,410,2197.78,28,12524.47,155000
+2026-08-02,Google Ads,Paid Search,UCaaS,Non-Brand,18600,731,3597.49,48,19934.63,197000
+2026-08-02,Google Ads,Paid Search,Managed Security,Non-Brand,13844,485,3045.46,26,14448.34,176000
+2026-08-02,Google Ads,Paid Search,Enterprise Voice,Non-Brand,11364,447,3115.83,29,14175.23,149000
+2026-08-02,Google Ads,Display,Remarketing,Remarketing,38578,515,1509.05,38,11353.63,97000
+2026-08-03,Google Ads,Paid Search,Brand Search,Brand,18977,1585,3463.5,213,43280.17,112000
+2026-08-03,Google Ads,Paid Search,Business Fiber,Non-Brand,41667,2108,8249.37,143,41004.59,279000
+2026-08-03,Google Ads,Paid Search,SD-WAN,Non-Brand,20533,839,4674.54,57,24964.34,155000
+2026-08-03,Google Ads,Paid Search,UCaaS,Non-Brand,31288,1190,5649.76,81,31630.09,197000
+2026-08-03,Google Ads,Paid Search,Managed Security,Non-Brand,24015,814,4860.45,49,26869.47,176000
+2026-08-03,Google Ads,Paid Search,Enterprise Voice,Non-Brand,19020,750,4971.96,45,22040.94,149000
+2026-08-03,Google Ads,Display,Remarketing,Remarketing,69264,950,2816.59,58,18202.05,97000
+2026-08-04,Google Ads,Paid Search,Brand Search,Brand,21275,1783,3951.75,216,42689.38,112000
+2026-08-04,Google Ads,Paid Search,Business Fiber,Non-Brand,43248,2119,8048.1,126,37414.0,279000
+2026-08-04,Google Ads,Paid Search,SD-WAN,Non-Brand,22074,882,4643.44,54,23626.89,155000
+2026-08-04,Google Ads,Paid Search,UCaaS,Non-Brand,35031,1414,6704.01,91,35777.04,197000
+2026-08-04,Google Ads,Paid Search,Managed Security,Non-Brand,28129,968,5877.71,62,33252.98,176000
+2026-08-04,Google Ads,Paid Search,Enterprise Voice,Non-Brand,20608,850,6204.77,55,26330.19,149000
+2026-08-04,Google Ads,Display,Remarketing,Remarketing,70494,1031,3000.62,67,20880.97,97000
+2026-08-05,Google Ads,Paid Search,Brand Search,Brand,20882,1636,3668.71,212,42675.24,112000
+2026-08-05,Google Ads,Paid Search,Business Fiber,Non-Brand,42786,2113,8282.66,134,38700.69,279000
+2026-08-05,Google Ads,Paid Search,SD-WAN,Non-Brand,21957,886,4897.35,59,26712.72,155000
+2026-08-05,Google Ads,Paid Search,UCaaS,Non-Brand,35810,1427,7188.9,99,38638.2,197000
+2026-08-05,Google Ads,Paid Search,Managed Security,Non-Brand,30325,1061,6315.51,55,30328.44,176000
+2026-08-05,Google Ads,Paid Search,Enterprise Voice,Non-Brand,20578,834,5829.25,51,25800.79,149000
+2026-08-05,Google Ads,Display,Remarketing,Remarketing,73824,989,3114.16,66,19609.84,97000
+2026-08-06,Google Ads,Paid Search,Brand Search,Brand,18890,1575,3530.81,206,42402.89,112000
+2026-08-06,Google Ads,Paid Search,Business Fiber,Non-Brand,42376,2203,8400.71,147,42240.48,279000
+2026-08-06,Google Ads,Paid Search,SD-WAN,Non-Brand,22023,895,4849.97,59,25437.31,155000
+2026-08-06,Google Ads,Paid Search,UCaaS,Non-Brand,34946,1423,7016.18,105,43795.87,197000
+2026-08-06,Google Ads,Paid Search,Managed Security,Non-Brand,27937,983,5929.24,51,28262.1,176000
+2026-08-06,Google Ads,Paid Search,Enterprise Voice,Non-Brand,20052,809,5950.15,47,23217.86,149000
+2026-08-06,Google Ads,Display,Remarketing,Remarketing,71531,1010,3031.05,66,18741.89,97000
+2026-08-07,Google Ads,Paid Search,Brand Search,Brand,16463,1306,3005.8,156,32653.91,112000
+2026-08-07,Google Ads,Paid Search,Business Fiber,Non-Brand,38060,1867,7063.72,114,34164.87,279000
+2026-08-07,Google Ads,Paid Search,SD-WAN,Non-Brand,19590,779,4367.43,48,21283.38,155000
+2026-08-07,Google Ads,Paid Search,UCaaS,Non-Brand,31709,1220,6346.47,88,35780.77,197000
+2026-08-07,Google Ads,Paid Search,Managed Security,Non-Brand,25576,881,5276.8,46,25189.22,176000
+2026-08-07,Google Ads,Paid Search,Enterprise Voice,Non-Brand,17607,709,5508.87,39,19492.82,149000
+2026-08-07,Google Ads,Display,Remarketing,Remarketing,60617,861,2564.15,52,15847.26,97000
+2026-08-08,Google Ads,Paid Search,Brand Search,Brand,9682,782,1700.67,106,20487.14,112000
+2026-08-08,Google Ads,Paid Search,Business Fiber,Non-Brand,24319,1253,4554.84,75,23296.8,279000
+2026-08-08,Google Ads,Paid Search,SD-WAN,Non-Brand,10815,425,2327.92,26,12139.44,155000
+2026-08-08,Google Ads,Paid Search,UCaaS,Non-Brand,17568,712,3650.82,51,20570.91,197000
+2026-08-08,Google Ads,Paid Search,Managed Security,Non-Brand,15155,528,3180.49,27,15035.87,176000
+2026-08-08,Google Ads,Paid Search,Enterprise Voice,Non-Brand,11135,436,3338.94,23,11314.43,149000
+2026-08-08,Google Ads,Display,Remarketing,Remarketing,34700,476,1383.75,33,9955.77,97000
+2026-08-09,Google Ads,Paid Search,Brand Search,Brand,10042,774,1683.56,94,19077.05,112000
+2026-08-09,Google Ads,Paid Search,Business Fiber,Non-Brand,24098,1222,4877.43,80,24037.08,279000
+2026-08-09,Google Ads,Paid Search,SD-WAN,Non-Brand,10730,421,2305.43,25,10943.74,155000
+2026-08-09,Google Ads,Paid Search,UCaaS,Non-Brand,16118,621,3282.12,48,19019.67,197000
+2026-08-09,Google Ads,Paid Search,Managed Security,Non-Brand,15418,537,3248.28,28,15398.44,176000
+2026-08-09,Google Ads,Paid Search,Enterprise Voice,Non-Brand,10761,412,3024.94,25,12472.85,149000
+2026-08-09,Google Ads,Display,Remarketing,Remarketing,35629,501,1452.19,33,10219.66,97000
+2026-08-10,Google Ads,Paid Search,Brand Search,Brand,20251,1628,3443.44,195,40048.34,112000
+2026-08-10,Google Ads,Paid Search,Business Fiber,Non-Brand,46933,2315,9082.44,136,41844.94,279000
+2026-08-10,Google Ads,Paid Search,SD-WAN,Non-Brand,21896,919,4852.19,63,29051.08,155000
+2026-08-10,Google Ads,Paid Search,UCaaS,Non-Brand,32309,1357,6977.24,92,38009.53,197000
+2026-08-10,Google Ads,Paid Search,Managed Security,Non-Brand,29396,1024,6075.81,53,29133.89,176000
+2026-08-10,Google Ads,Paid Search,Enterprise Voice,Non-Brand,21603,872,6719.5,53,27017.45,149000
+2026-08-10,Google Ads,Display,Remarketing,Remarketing,66789,901,2624.61,57,16303.08,97000
+2026-08-11,Google Ads,Paid Search,Brand Search,Brand,19503,1526,3370.42,191,38969.89,112000
+2026-08-11,Google Ads,Paid Search,Business Fiber,Non-Brand,44353,2166,8525.67,154,47097.43,279000
+2026-08-11,Google Ads,Paid Search,SD-WAN,Non-Brand,20908,875,4950.15,61,28790.86,155000
+2026-08-11,Google Ads,Paid Search,UCaaS,Non-Brand,36361,1400,7568.57,93,38029.29,197000
+2026-08-11,Google Ads,Paid Search,Managed Security,Non-Brand,31725,1108,6626.19,58,31851.75,176000
+2026-08-11,Google Ads,Paid Search,Enterprise Voice,Non-Brand,21430,837,6604.63,49,24666.49,149000
+2026-08-11,Google Ads,Display,Remarketing,Remarketing,76990,1034,3106.85,66,20728.23,97000
+2026-08-12,Google Ads,Paid Search,Brand Search,Brand,19018,1590,3437.48,186,38157.48,112000
+2026-08-12,Google Ads,Paid Search,Business Fiber,Non-Brand,46287,2368,8960.17,159,46939.0,279000
+2026-08-12,Google Ads,Paid Search,SD-WAN,Non-Brand,20216,811,4337.0,51,22481.65,155000
+2026-08-12,Google Ads,Paid Search,UCaaS,Non-Brand,32153,1328,6875.31,94,38023.85,197000
+2026-08-12,Google Ads,Paid Search,Managed Security,Non-Brand,29187,1029,6091.23,53,29351.69,176000
+2026-08-12,Google Ads,Paid Search,Enterprise Voice,Non-Brand,19261,792,6293.31,43,22276.48,149000
+2026-08-12,Google Ads,Display,Remarketing,Remarketing,69897,930,2916.84,59,17905.82,97000
+2026-08-13,Google Ads,Paid Search,Brand Search,Brand,17759,1442,3064.22,203,39724.4,112000
+2026-08-13,Google Ads,Paid Search,Business Fiber,Non-Brand,44422,2166,8124.08,152,44046.65,279000
+2026-08-13,Google Ads,Paid Search,SD-WAN,Non-Brand,20764,814,4568.53,50,22658.59,155000
+2026-08-13,Google Ads,Paid Search,UCaaS,Non-Brand,33493,1273,6740.39,83,32118.42,197000
+2026-08-13,Google Ads,Paid Search,Managed Security,Non-Brand,28926,1027,6175.32,53,29403.15,176000
+2026-08-13,Google Ads,Paid Search,Enterprise Voice,Non-Brand,21553,855,6571.21,46,22683.76,149000
+2026-08-13,Google Ads,Display,Remarketing,Remarketing,71075,955,2812.96,69,19918.68,97000
+2026-08-14,Google Ads,Paid Search,Brand Search,Brand,18344,1505,3188.83,214,41347.7,112000
+2026-08-14,Google Ads,Paid Search,Business Fiber,Non-Brand,40572,1929,7439.76,124,37930.98,279000
+2026-08-14,Google Ads,Paid Search,SD-WAN,Non-Brand,20068,775,4223.42,52,24090.43,155000
+2026-08-14,Google Ads,Paid Search,UCaaS,Non-Brand,28212,1083,5947.21,77,30520.6,197000
+2026-08-14,Google Ads,Paid Search,Managed Security,Non-Brand,28156,982,5908.4,52,28591.71,176000
+2026-08-14,Google Ads,Paid Search,Enterprise Voice,Non-Brand,17381,699,5630.02,42,21540.78,149000
+2026-08-14,Google Ads,Display,Remarketing,Remarketing,65786,953,2904.41,61,18428.81,97000
+2026-08-15,Google Ads,Paid Search,Brand Search,Brand,10191,835,1800.4,99,20526.34,112000
+2026-08-15,Google Ads,Paid Search,Business Fiber,Non-Brand,25075,1253,4577.5,81,24625.61,279000
+2026-08-15,Google Ads,Paid Search,SD-WAN,Non-Brand,11437,479,2764.58,33,14517.86,155000
+2026-08-15,Google Ads,Paid Search,UCaaS,Non-Brand,18500,745,3969.68,54,22192.77,197000
+2026-08-15,Google Ads,Paid Search,Managed Security,Non-Brand,16428,567,3402.6,30,16531.41,176000
+2026-08-15,Google Ads,Paid Search,Enterprise Voice,Non-Brand,10370,396,2080.72,25,12294.02,149000
+2026-08-15,Google Ads,Display,Remarketing,Remarketing,37720,528,1571.02,37,10582.91,97000
+2026-08-16,Google Ads,Paid Search,Brand Search,Brand,10235,828,1781.63,103,20691.69,112000
+2026-08-16,Google Ads,Paid Search,Business Fiber,Non-Brand,22265,1148,4376.53,73,22147.88,279000
+2026-08-16,Google Ads,Paid Search,SD-WAN,Non-Brand,11994,488,2569.97,33,15033.17,155000
+2026-08-16,Google Ads,Paid Search,UCaaS,Non-Brand,18460,706,3685.31,49,19410.82,197000
+2026-08-16,Google Ads,Paid Search,Managed Security,Non-Brand,15541,549,3292.73,29,15679.2,176000
+2026-08-16,Google Ads,Paid Search,Enterprise Voice,Non-Brand,10124,413,2319.31,23,11829.18,149000
+2026-08-16,Google Ads,Display,Remarketing,Remarketing,37096,534,1637.49,39,11381.65,97000
+2026-08-17,Google Ads,Paid Search,Brand Search,Brand,20299,1586,3624.82,217,41341.91,112000
+2026-08-17,Google Ads,Paid Search,Business Fiber,Non-Brand,46818,2288,8313.43,155,46785.0,279000
+2026-08-17,Google Ads,Paid Search,SD-WAN,Non-Brand,20264,807,4376.08,52,23503.07,155000
+2026-08-17,Google Ads,Paid Search,UCaaS,Non-Brand,32683,1275,6728.18,91,37043.85,197000
+2026-08-17,Google Ads,Paid Search,Managed Security,Non-Brand,28239,978,5975.7,51,28142.22,176000
+2026-08-17,Google Ads,Paid Search,Enterprise Voice,Non-Brand,19739,787,4279.61,43,22417.42,149000
+2026-08-17,Google Ads,Display,Remarketing,Remarketing,74596,1050,3279.97,87,25888.76,97000
+2026-08-18,Google Ads,Paid Search,Brand Search,Brand,19410,1540,3462.24,191,36506.77,112000
+2026-08-18,Google Ads,Paid Search,Business Fiber,Non-Brand,44966,2249,8888.73,137,42222.41,279000
+2026-08-18,Google Ads,Paid Search,SD-WAN,Non-Brand,24078,1007,5298.98,64,28300.13,155000
+2026-08-18,Google Ads,Paid Search,UCaaS,Non-Brand,36239,1425,7934.38,90,34885.15,197000
+2026-08-18,Google Ads,Paid Search,Managed Security,Non-Brand,30325,1068,6389.42,56,30570.24,176000
+2026-08-18,Google Ads,Paid Search,Enterprise Voice,Non-Brand,21479,859,4850.87,47,24611.67,149000
+2026-08-18,Google Ads,Display,Remarketing,Remarketing,75601,1031,2941.56,80,23381.97,97000
+2026-08-19,Google Ads,Paid Search,Brand Search,Brand,18948,1567,3578.09,222,42112.85,112000
+2026-08-19,Google Ads,Paid Search,Business Fiber,Non-Brand,45748,2367,9199.9,141,42565.87,279000
+2026-08-19,Google Ads,Paid Search,SD-WAN,Non-Brand,20824,832,4376.26,59,27037.05,155000
+2026-08-19,Google Ads,Paid Search,UCaaS,Non-Brand,31216,1301,7558.79,91,37313.18,197000
+2026-08-19,Google Ads,Paid Search,Managed Security,Non-Brand,29112,1000,6000.55,52,28820.49,176000
+2026-08-19,Google Ads,Paid Search,Enterprise Voice,Non-Brand,19373,800,4211.47,48,23635.61,149000
+2026-08-19,Google Ads,Display,Remarketing,Remarketing,75801,1033,3025.74,79,24310.5,97000
+2026-08-20,Google Ads,Paid Search,Brand Search,Brand,19476,1595,3444.62,197,37801.95,112000
+2026-08-20,Google Ads,Paid Search,Business Fiber,Non-Brand,41288,2122,8132.64,92,26769.77,279000
+2026-08-20,Google Ads,Paid Search,SD-WAN,Non-Brand,15120,599,3307.03,42,18392.75,155000
+2026-08-20,Google Ads,Paid Search,UCaaS,Non-Brand,31441,1228,6655.54,80,32627.88,197000
+2026-08-20,Google Ads,Paid Search,Managed Security,Non-Brand,29915,1033,6299.6,55,30072.62,176000
+2026-08-20,Google Ads,Paid Search,Enterprise Voice,Non-Brand,19441,746,3998.93,43,21287.94,149000
+2026-08-20,Google Ads,Display,Remarketing,Remarketing,70487,963,3031.24,69,20503.75,97000
+2026-08-21,Google Ads,Paid Search,Brand Search,Brand,17441,1430,3067.0,184,37927.62,112000
+2026-08-21,Google Ads,Paid Search,Business Fiber,Non-Brand,38048,1810,7103.49,93,26788.19,279000
+2026-08-21,Google Ads,Paid Search,SD-WAN,Non-Brand,14892,588,3276.54,39,17652.38,155000
+2026-08-21,Google Ads,Paid Search,UCaaS,Non-Brand,29044,1198,6479.9,77,31857.41,197000
+2026-08-21,Google Ads,Paid Search,Managed Security,Non-Brand,26133,930,5569.47,48,26377.81,176000
+2026-08-21,Google Ads,Paid Search,Enterprise Voice,Non-Brand,18118,692,3788.88,38,19090.18,149000
+2026-08-21,Google Ads,Display,Remarketing,Remarketing,67126,930,2658.42,76,22115.31,97000
+2026-08-22,Google Ads,Paid Search,Brand Search,Brand,9711,753,1619.14,105,20039.81,112000
+2026-08-22,Google Ads,Paid Search,Business Fiber,Non-Brand,23821,1161,4320.5,53,16066.59,279000
+2026-08-22,Google Ads,Paid Search,SD-WAN,Non-Brand,7621,298,1580.3,18,8420.09,155000
+2026-08-22,Google Ads,Paid Search,UCaaS,Non-Brand,17562,712,4198.65,53,22134.71,197000
+2026-08-22,Google Ads,Paid Search,Managed Security,Non-Brand,15927,560,3353.21,29,16105.98,176000
+2026-08-22,Google Ads,Paid Search,Enterprise Voice,Non-Brand,11492,460,2500.57,25,12401.67,149000
+2026-08-22,Google Ads,Display,Remarketing,Remarketing,35298,514,1584.13,37,11655.13,97000
+2026-08-23,Google Ads,Paid Search,Brand Search,Brand,10223,840,1939.53,119,22891.92,112000
+2026-08-23,Google Ads,Paid Search,Business Fiber,Non-Brand,23962,1170,4587.06,59,16982.72,279000
+2026-08-23,Google Ads,Paid Search,SD-WAN,Non-Brand,8848,344,1957.55,23,10392.51,155000
+2026-08-23,Google Ads,Paid Search,UCaaS,Non-Brand,18439,763,4262.46,54,22426.6,197000
+2026-08-23,Google Ads,Paid Search,Managed Security,Non-Brand,15925,547,3329.9,29,15898.14,176000
+2026-08-23,Google Ads,Paid Search,Enterprise Voice,Non-Brand,11552,465,2573.73,26,13421.75,149000
+2026-08-23,Google Ads,Display,Remarketing,Remarketing,39217,549,1614.4,43,12454.87,97000
+2026-08-24,Google Ads,Paid Search,Brand Search,Brand,18594,1446,3188.93,169,35166.91,112000
+2026-08-24,Google Ads,Paid Search,Business Fiber,Non-Brand,42493,2046,7944.1,104,32156.66,279000
+2026-08-24,Google Ads,Paid Search,SD-WAN,Non-Brand,15207,579,3213.29,40,18656.37,155000
+2026-08-24,Google Ads,Paid Search,UCaaS,Non-Brand,35241,1460,8891.09,100,41621.15,197000
+2026-08-24,Google Ads,Paid Search,Managed Security,Non-Brand,28672,1008,6025.62,53,28929.24,176000
+2026-08-24,Google Ads,Paid Search,Enterprise Voice,Non-Brand,19452,813,4602.01,52,26448.78,149000
+2026-08-24,Google Ads,Display,Remarketing,Remarketing,66882,980,2997.63,84,25967.79,97000
+2026-08-25,Google Ads,Paid Search,Brand Search,Brand,19095,1541,3280.58,192,39158.81,112000
+2026-08-25,Google Ads,Paid Search,Business Fiber,Non-Brand,43163,2208,8765.16,112,33357.84,279000
+2026-08-25,Google Ads,Paid Search,SD-WAN,Non-Brand,17369,727,3812.0,48,22373.16,155000
+2026-08-25,Google Ads,Paid Search,UCaaS,Non-Brand,36913,1435,8451.63,109,42128.43,197000
+2026-08-25,Google Ads,Paid Search,Managed Security,Non-Brand,31046,1103,6510.34,57,31449.21,176000
+2026-08-25,Google Ads,Paid Search,Enterprise Voice,Non-Brand,22473,862,4839.8,52,27007.45,149000
+2026-08-25,Google Ads,Display,Remarketing,Remarketing,71956,984,2877.29,71,20796.68,97000
+2026-08-26,Google Ads,Paid Search,Brand Search,Brand,18207,1384,3009.86,188,39330.62,112000
+2026-08-26,Google Ads,Paid Search,Business Fiber,Non-Brand,47371,2367,8885.12,112,32150.88,279000
+2026-08-26,Google Ads,Paid Search,SD-WAN,Non-Brand,15598,647,3610.14,43,18755.72,155000
+2026-08-26,Google Ads,Paid Search,UCaaS,Non-Brand,31113,1288,7377.6,87,36313.11,197000
+2026-08-26,Google Ads,Paid Search,Managed Security,Non-Brand,27402,963,5826.67,50,27416.34,176000
+2026-08-26,Google Ads,Paid Search,Enterprise Voice,Non-Brand,20735,862,4550.29,52,26081.02,149000
+2026-08-26,Google Ads,Display,Remarketing,Remarketing,70365,939,2941.35,59,18293.9,97000
+2026-08-27,Google Ads,Paid Search,Brand Search,Brand,17835,1370,2925.01,167,33988.87,112000
+2026-08-27,Google Ads,Paid Search,Business Fiber,Non-Brand,44890,2296,8520.45,103,29973.61,279000
+2026-08-27,Google Ads,Paid Search,SD-WAN,Non-Brand,14107,568,3231.96,34,15091.92,155000
+2026-08-27,Google Ads,Paid Search,UCaaS,Non-Brand,32060,1256,7467.03,90,34797.31,197000
+2026-08-27,Google Ads,Paid Search,Managed Security,Non-Brand,26427,927,5538.62,48,26411.39,176000
+2026-08-27,Google Ads,Paid Search,Enterprise Voice,Non-Brand,21092,827,4504.56,48,24624.32,149000
+2026-08-27,Google Ads,Display,Remarketing,Remarketing,64060,901,2617.23,65,19247.28,97000
+2026-08-28,Google Ads,Paid Search,Brand Search,Brand,17423,1361,2983.32,167,32594.48,112000
+2026-08-28,Google Ads,Paid Search,Business Fiber,Non-Brand,37543,1925,7435.6,82,24356.61,279000
+2026-08-28,Google Ads,Paid Search,SD-WAN,Non-Brand,14253,597,3312.65,39,18052.68,155000
+2026-08-28,Google Ads,Paid Search,UCaaS,Non-Brand,31749,1260,7395.0,95,37762.32,197000
+2026-08-28,Google Ads,Paid Search,Managed Security,Non-Brand,27944,970,5917.92,51,28244.2,176000
+2026-08-28,Google Ads,Paid Search,Enterprise Voice,Non-Brand,19258,771,4407.45,48,24398.68,149000
+2026-08-28,Google Ads,Display,Remarketing,Remarketing,65069,876,2696.72,55,17259.95,97000
+2026-08-29,Google Ads,Paid Search,Brand Search,Brand,10944,903,1911.28,115,24177.67,112000
+2026-08-29,Google Ads,Paid Search,Business Fiber,Non-Brand,23133,1214,4672.61,61,17718.68,279000
+2026-08-29,Google Ads,Paid Search,SD-WAN,Non-Brand,8736,364,1914.86,23,10188.49,155000
+2026-08-29,Google Ads,Paid Search,UCaaS,Non-Brand,17003,665,3873.48,50,20581.6,197000
+2026-08-29,Google Ads,Paid Search,Managed Security,Non-Brand,15640,546,3277.15,29,15714.28,176000
+2026-08-29,Google Ads,Paid Search,Enterprise Voice,Non-Brand,10173,411,2316.12,26,13664.78,149000
+2026-08-29,Google Ads,Display,Remarketing,Remarketing,37331,502,1473.13,34,9998.99,97000

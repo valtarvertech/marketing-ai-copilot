@@ -1,149 +1,74 @@
-import csv
+"""
+Marketing AI Copilot -- Streamlit entry point.
 
-print("Good morning! Welcome to Marketing AI Copilot.")
+This file is intentionally thin: load the synthetic data once, let the
+user pick a section from the sidebar, and hand off to the matching
+render_* function in src/ui_sections.py. All of the actual analysis
+(metrics, comparisons, investigation, pacing, recommendations, ...)
+lives in src/ so it can be tested independently of the UI -- see tests/.
 
-data_file = "data/campaigns.csv"
+Run with:  streamlit run app.py
+"""
 
-# -----------------------------------------------------------------------
-# 1. Load the data
-# -----------------------------------------------------------------------
-# csv.DictReader turns each row into a dictionary keyed by the column
-# headers (date, campaign_name, channel, impressions, clicks, spend,
-# conversions, conversion_value). Every value comes back as a string,
-# even the numbers, because a CSV file is just plain text.
-with open(data_file, mode="r") as file:
-    reader = csv.DictReader(file)
-    campaigns = list(reader)
+import streamlit as st
 
-# The numeric fields need to be converted from strings to int/float
-# before we can do any math with them (e.g. "18500" -> 18500).
-NUMERIC_FIELDS = ["impressions", "clicks", "spend", "conversions", "conversion_value"]
+from src.data_loader import load_all, DataNotFoundError
+from src import ui_sections
+from src.ui_components import inject_theme, demo_data_tag, nav_flow_legend
 
-for campaign in campaigns:
-    for field in NUMERIC_FIELDS:
-        if field in ("impressions", "clicks", "conversions"):
-            campaign[field] = int(campaign[field])
-        else:
-            campaign[field] = float(campaign[field])
+st.set_page_config(page_title="Marketing AI Copilot", layout="wide")
+inject_theme()
 
-
-# -----------------------------------------------------------------------
-# 2. Calculate metrics for one campaign
-# -----------------------------------------------------------------------
-def calculate_metrics(campaign):
-    """Given one campaign's raw numbers, return a copy with 5 extra
-    calculated metrics added to it."""
-
-    # CTR (Click-Through Rate): what percent of people who saw the ad clicked it.
-    ctr = campaign["clicks"] / campaign["impressions"]
-
-    # CPC (Cost Per Click): how much, on average, each click cost.
-    cpc = campaign["spend"] / campaign["clicks"]
-
-    # Conversion Rate: what percent of clicks turned into a conversion.
-    conversion_rate = campaign["conversions"] / campaign["clicks"]
-
-    # CPA (Cost Per Acquisition): how much, on average, each conversion cost.
-    cpa = campaign["spend"] / campaign["conversions"]
-
-    # ROAS (Return On Ad Spend): how many dollars came back for every dollar spent.
-    roas = campaign["conversion_value"] / campaign["spend"]
-
-    # Start with everything the campaign already had, then add the new metrics.
-    enriched_campaign = dict(campaign)
-    enriched_campaign["ctr"] = ctr
-    enriched_campaign["cpc"] = cpc
-    enriched_campaign["conversion_rate"] = conversion_rate
-    enriched_campaign["cpa"] = cpa
-    enriched_campaign["roas"] = roas
-    return enriched_campaign
+# Order matters beyond readability: it's grouped 2/3/3/2 to match the
+# product's four-stage reasoning flow (Overview / Diagnose / Understand /
+# Act), and src/ui_components.py's CSS draws divider lines at the 3rd,
+# 6th, and 9th sidebar item assuming exactly this grouping.
+SECTIONS = {
+    "Executive Overview": ui_sections.render_executive_overview,
+    "Performance Intelligence": ui_sections.render_performance_intelligence,
+    "Campaign Intelligence": ui_sections.render_campaign_intelligence,
+    "Keyword Intelligence": ui_sections.render_keyword_intelligence,
+    "Search Term Intelligence": ui_sections.render_search_term_intelligence,
+    "Budget Pacing": ui_sections.render_budget_pacing,
+    "Competitive Intelligence": ui_sections.render_competitive_intelligence,
+    "Change Intelligence": ui_sections.render_change_intelligence,
+    "Optimization Center": ui_sections.render_optimization_center,
+    "Ask My Account": ui_sections.render_ask_my_account,
+}
 
 
-# -----------------------------------------------------------------------
-# 3. Build the enriched list (original data + calculated metrics)
-# -----------------------------------------------------------------------
-campaigns_with_metrics = [calculate_metrics(campaign) for campaign in campaigns]
+@st.cache_data
+def _load_data():
+    return load_all()
 
 
-# -----------------------------------------------------------------------
-# 4. Find the standout campaigns
-# -----------------------------------------------------------------------
-# max() scans the whole list and returns the single item where the
-# "key" function produces the largest value.
-most_conversions = max(campaigns_with_metrics, key=lambda c: c["conversions"])
-best_roas = max(campaigns_with_metrics, key=lambda c: c["roas"])
-highest_ctr = max(campaigns_with_metrics, key=lambda c: c["ctr"])
-highest_conversion_rate = max(campaigns_with_metrics, key=lambda c: c["conversion_rate"])
+def main():
+    # A cross-page "Investigate ->" button (see src/ui_sections.py) sets
+    # pending_nav_section instead of nav_section directly, since the sidebar
+    # radio below is already instantiated by the time such a button's click
+    # handler runs -- Streamlit forbids writing a widget's own session_state
+    # key after that widget has been drawn in the same run. Consuming the
+    # pending value here, before the radio is created, is the safe point.
+    if "pending_nav_section" in st.session_state:
+        st.session_state["nav_section"] = st.session_state.pop("pending_nav_section")
 
-# Highest CPA isn't necessarily "best" — it means this campaign paid the
-# most, on average, to win each conversion, which is worth a closer look.
-highest_cpa = max(campaigns_with_metrics, key=lambda c: c["cpa"])
+    st.sidebar.title("Marketing AI Copilot")
+    st.sidebar.caption("Marketing Intelligence & Decision Support")
+    with st.sidebar:
+        demo_data_tag()
+    st.sidebar.divider()
+    with st.sidebar:
+        nav_flow_legend()
+    section = st.sidebar.radio("Navigate", list(SECTIONS.keys()), label_visibility="collapsed", key="nav_section")
 
-total_spend = sum(c["spend"] for c in campaigns_with_metrics)
-total_conversions = sum(c["conversions"] for c in campaigns_with_metrics)
+    try:
+        data = _load_data()
+    except DataNotFoundError as e:
+        st.error(str(e))
+        st.stop()
 
-
-# -----------------------------------------------------------------------
-# 5. Generate a plain-English, rule-based summary
-# -----------------------------------------------------------------------
-def generate_summary(most_conversions, highest_cpa, best_roas, highest_ctr,
-                      highest_conversion_rate, total_spend, total_conversions):
-    """Turn the standout campaigns we already found into a plain-English
-    report. This function only formats text -- it does no new math and
-    uses no external AI, just simple rules based on the numbers above."""
-
-    lines = []
-    lines.append("Campaign Performance Summary")
-    lines.append("-----------------------------")
-    lines.append(f"Total spend across all campaigns: ${total_spend:,.2f}")
-    lines.append(f"Total conversions: {total_conversions}")
-    lines.append("")
-    lines.append(
-        f'"{most_conversions["campaign_name"]}" drove the most conversions '
-        f'({most_conversions["conversions"]}).'
-    )
-    lines.append(
-        f'"{highest_cpa["campaign_name"]}" had the highest cost per acquisition '
-        f'(${highest_cpa["cpa"]:.2f}) -- worth a closer look.'
-    )
-    lines.append(
-        f'"{best_roas["campaign_name"]}" delivered the best return on ad spend '
-        f'({best_roas["roas"]:.2f}x).'
-    )
-    lines.append(
-        f'"{highest_ctr["campaign_name"]}" had the highest click-through rate '
-        f'({highest_ctr["ctr"]:.2%}).'
-    )
-    lines.append(
-        f'"{highest_conversion_rate["campaign_name"]}" had the highest conversion rate '
-        f'({highest_conversion_rate["conversion_rate"]:.2%}).'
-    )
-    return "\n".join(lines)
+    SECTIONS[section](data)
 
 
-# -----------------------------------------------------------------------
-# 6. Print everything out
-# -----------------------------------------------------------------------
-print("\nPer-Campaign Metrics")
-print("---------------------")
-for c in campaigns_with_metrics:
-    print(
-        f'{c["campaign_name"]:20} '
-        f'CTR: {c["ctr"]:.2%}  '
-        f'CPC: ${c["cpc"]:.2f}  '
-        f'Conv Rate: {c["conversion_rate"]:.2%}  '
-        f'CPA: ${c["cpa"]:.2f}  '
-        f'ROAS: {c["roas"]:.2f}x'
-    )
-
-summary = generate_summary(
-    most_conversions,
-    highest_cpa,
-    best_roas,
-    highest_ctr,
-    highest_conversion_rate,
-    total_spend,
-    total_conversions,
-)
-
-print("\n" + summary)
+if __name__ == "__main__":
+    main()
