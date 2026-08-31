@@ -12,9 +12,11 @@ Unlike an application that asks an LLM to calculate metrics or invent explanatio
 
 **Demo environment · Synthetic dataset** — v1.0.0 runs entirely on synthetic data with no external LLM or API connections. See [Current Limitations](#current-limitations) for what that does and doesn't mean.
 
+Marketing AI Copilot is architected as a **multi-channel paid-media intelligence platform**. v1.0.0 proves that architecture end to end using a synthetic paid-search dataset; additional advertising-platform integrations (Google Ads, Meta, LinkedIn, TikTok, and others) are roadmap items — see [Roadmap](#roadmap) — not current capabilities.
+
 ## Overview
 
-Marketing AI Copilot is built for performance marketers and paid search teams who need more than a reporting dashboard. It:
+Marketing AI Copilot is built for performance marketers and paid-media teams who need more than a reporting dashboard. v1.0.0's analytical implementation is paid-search focused — proving the architecture with campaign, keyword, and search-term-level intelligence — on a path toward broader paid-media coverage (see [Roadmap](#roadmap)). It:
 
 - Monitors paid media performance on rolling 8-day and 5-week windows
 - Detects which changes are actually meaningful, not just noisy day-to-day variance
@@ -237,20 +239,20 @@ This is a **portfolio-ready synthetic-data release**, not a production system:
 
 ## Roadmap
 
-Full detail in [docs/ROADMAP.md](docs/ROADMAP.md). At a high level:
+Full detail in [docs/ROADMAP.md](docs/ROADMAP.md). At a high level, the product evolves in stages:
 
-### Data Integrations
-Google Ads API, Microsoft Advertising, GA4, CRM/offline conversion sources — each designed to plug into the existing normalized schema without changing any downstream analytics.
-
-### AI Layer
-LLM-generated natural-language explanations from the structured evidence this app already produces, richer conversational follow-ups in Ask My Account, and retrieval over historical investigation context.
+1. **Current foundation** *(proven)* — normalized data schema, deterministic analytics, and the evidence/investigation architecture, demonstrated end to end on synthetic paid-search data.
+2. **Live measurement & search integrations** — Google Ads, Microsoft Advertising, GA4, CRM/offline conversion sources, each plugging into the existing normalized schema without changing downstream analytics.
+3. **Multi-channel paid-media expansion** — Meta Ads, LinkedIn Ads, TikTok Ads, and other paid-media platforms where appropriate.
+4. **Cross-channel intelligence** — once multiple platforms share the same normalized schema, extend today's within-platform campaign contribution analysis and investigation evidence chain to rank *channel*-level contribution, not just campaign-level.
+5. **AI explanation layer** — LLM-generated explanations from the structured evidence this app already produces, and richer Ask My Account conversations. The AI layer extends the deterministic analytical engine; it does not replace it.
 
 ### Product
 Authentication, persistent account configuration, automated data refresh, alerting, and multi-account support.
 
 ## What This Project Demonstrates
 
-- Paid search and performance-marketing domain expertise, expressed as working software rather than a slide deck
+- Paid-search domain expertise, proven as working software on an architecture intentionally designed to extend across paid-media channels rather than stay paid-search-only
 - Turning raw campaign analytics into structured, evidence-based decision support
 - Modular Python engineering with a clear separation between data, analytics, evidence, reasoning, and presentation
 - A deliberate architectural choice to build deterministic analytics *before* introducing generative AI, with a defined seam for AI to extend rather than replace that logic
